@@ -1,0 +1,1090 @@
+{
+ "meta": {
+  "source": "ROSTER_SITE_FORWARD_2026.docx — documentul oficial al agenției, 5 nov 2026 (înlocuiește extragerea de pe forward.ro)",
+  "total": 57,
+  "categories": {
+   "Pop": 22,
+   "Urban Hip-Hop": 7,
+   "Urban Trap": 10,
+   "Rock/Indie/Alternativ": 10,
+   "DJ": 8
+  },
+  "management_total": 9,
+  "epicenter_total": 7,
+  "profile_noi": 12,
+  "url_pattern": "https://forward.ro/talents/{slug}/ (slug null = profil nou)",
+  "nota_build": "Social links + 3 video YouTube per artist sunt în DOCX — se parsează cu script la build (word/document.xml). Confirmat de Cristi (5 nov): grafia corectă e MARKO GLASS; numele public e Chris Hype. Linkurile lipsă (Tania Turtureanu, BABASHA, Deliah, Mihai Mărgineanu, Vlad Corb, White Mahala, Lupii lui Calancea, trupele by Epicenter, Eva Timush, Zodier, Bruja, Dan Gerosu parțial) — Cristi le trimite."
+ },
+ "agents": {
+  "C": {
+   "name": "Cristi Ochiu",
+   "email": "cristi@forward.ro"
+  },
+  "B": {
+   "name": "Bogdan Niță",
+   "email": "bogdan@forward.ro"
+  },
+  "V": {
+   "name": "Valeria Vdovii",
+   "email": "valeria@forward.ro"
+  },
+  "A": {
+   "name": "Andrei Unguru",
+   "email": "andrei@forward.ro"
+  },
+  "M": {
+   "name": "Mădălin Mavriche",
+   "email": "madalin@forward.ro"
+  },
+  "O": {
+   "name": "Codruț Dumitrescu",
+   "email": "codrut@epicenterhub.live"
+  },
+  "T": {
+   "name": "Cătălina Trică",
+   "email": "catalina@epicenterhub.live"
+  }
+ },
+ "roster": [
+  {
+   "name": "Carla's Dreams",
+   "cat": "Pop",
+   "slug": "carlas-dreams",
+   "booking": [
+    "V",
+    "B"
+   ],
+   "socials": {
+    "facebook": "https://www.facebook.com/carlasdreamss/",
+    "instagram": "https://www.instagram.com/carlasdreams/?hl=en",
+    "youtube": "https://www.youtube.com/channel/UCiaRvjs_KZL_5jS0tl5PEoQ",
+    "spotify": "https://open.spotify.com/artist/1n5LD9Ar3D6RK2X2ewGvXb"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=1VYJ3UQCmtM",
+    "https://www.youtube.com/watch?v=K9HO23XjfZc",
+    "https://www.youtube.com/watch?v=vR7IwJkb-EA"
+   ]
+  },
+  {
+   "name": "The Motans",
+   "cat": "Pop",
+   "slug": "the-motans",
+   "booking": [
+    "B",
+    "C"
+   ],
+   "socials": {
+    "facebook": "https://www.facebook.com/themotans",
+    "instagram": "https://www.instagram.com/themotans/?hl=en",
+    "youtube": "https://www.youtube.com/channel/UCVH4CfUtEZ6A0q2fJkOuCjw",
+    "spotify": "https://open.spotify.com/artist/05qpk4JDcLSFNJSsPIZ8Ye"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=6HCnT_NqrQI",
+    "https://www.youtube.com/watch?v=aITtaa90GBU",
+    "https://www.youtube.com/watch?v=UcaWGdvSFl8"
+   ]
+  },
+  {
+   "name": "Irina Rimes",
+   "cat": "Pop",
+   "slug": "irina-rimes",
+   "booking": [
+    "V",
+    "B"
+   ],
+   "socials": {
+    "facebook": "https://www.facebook.com/IrinaRimesOficial",
+    "instagram": "https://www.instagram.com/irinarimes/?hl=en",
+    "youtube": "https://www.youtube.com/channel/UC__X_iXX_aLcfNnFEZs1AZg",
+    "spotify": "https://open.spotify.com/artist/1OQa8VMULlbmbFmDcdfBZj"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=xcz9vKDjbIc",
+    "https://www.youtube.com/watch?v=F33akK-MgYc",
+    "https://www.youtube.com/watch?v=TTiaES7CU5o"
+   ]
+  },
+  {
+   "name": "Tania Turtureanu",
+   "cat": "Pop",
+   "slug": "tania-turtureanu",
+   "booking": [
+    "V",
+    "C"
+   ],
+   "management": {
+    "agent": "C",
+    "scope": "România"
+   },
+   "socials": {},
+   "videos": []
+  },
+  {
+   "name": "Erika Isac",
+   "cat": "Pop",
+   "slug": "erika-isac",
+   "booking": [
+    "B",
+    "V"
+   ],
+   "socials": {
+    "instagram": "https://www.instagram.com/erikaaaisac/?hl=en",
+    "youtube": "https://www.youtube.com/channel/UCuYDs7jdglTrLBNyFgHY7ZA",
+    "spotify": "https://open.spotify.com/artist/5ZBJ4rLeQx0IEN3ut3O1fC"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=FoQS41g6VrA",
+    "https://www.youtube.com/watch?v=C0Bc0nwSerM",
+    "https://www.youtube.com/watch?v=AFwvwCD2emM"
+   ]
+  },
+  {
+   "name": "Antonia",
+   "cat": "Pop",
+   "slug": "antonia",
+   "booking": [
+    "V",
+    "B"
+   ],
+   "socials": {
+    "facebook": "https://www.facebook.com/AntoniaOfficial",
+    "instagram": "https://www.instagram.com/antonia/?hl=en",
+    "youtube": "https://www.youtube.com/channel/UCmDmSSTt_4vMuPM1jk4zUtg",
+    "spotify": "https://open.spotify.com/artist/4TLzMoEaUDkcAfIlY3Xhxn"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=8ze4YbetMiw",
+    "https://www.youtube.com/watch?v=liezUtYiVc4",
+    "https://www.youtube.com/watch?v=0JTDKcyPh94"
+   ]
+  },
+  {
+   "name": "Alina Eremia",
+   "cat": "Pop",
+   "slug": "alina-eremia",
+   "booking": [
+    "V",
+    "B"
+   ],
+   "socials": {
+    "facebook": "https://www.facebook.com/profile.php?id=100044571903355",
+    "instagram": "https://www.instagram.com/alinaeremia/?hl=en",
+    "youtube": "https://www.youtube.com/@alinaeremiaofficial",
+    "spotify": "https://open.spotify.com/artist/6cpj6MeLF0pLx34Un9Bpj3"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=i6WK6mZwiXM",
+    "https://www.youtube.com/watch?v=GVoIvS-q2s0",
+    "https://www.youtube.com/watch?v=UStJA9w80bM"
+   ]
+  },
+  {
+   "name": "Randi",
+   "cat": "Pop",
+   "slug": "randi",
+   "booking": [
+    "B",
+    "C"
+   ],
+   "socials": {
+    "facebook": "https://www.facebook.com/Randimusic",
+    "instagram": "https://www.instagram.com/randi.music/?hl=en",
+    "youtube": "https://www.youtube.com/@RANDIofficialyt",
+    "spotify": "https://open.spotify.com/artist/4X8ZQYIamykCGOZhbRtv2r"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=X-xYi26sbro",
+    "https://www.youtube.com/watch?v=XGf1_09Bbek",
+    "https://www.youtube.com/watch?v=71bXbQJm7NU"
+   ]
+  },
+  {
+   "name": "Minelli",
+   "cat": "Pop",
+   "slug": "minelli",
+   "booking": [
+    "V",
+    "B"
+   ],
+   "socials": {
+    "facebook": "https://www.facebook.com/MinelliOfficial",
+    "instagram": "https://www.instagram.com/minellimusic/?hl=en",
+    "youtube": "https://www.youtube.com/channel/UCsWV6xMRN2Xx9LL3S4MRbEw",
+    "spotify": "https://open.spotify.com/artist/5T0j6On1EthT2QVNXh8vqc"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=VkC0bRg9PZU",
+    "https://www.youtube.com/watch?v=XqgYj8atJqo",
+    "https://www.youtube.com/watch?v=tqCLIM_NOcs"
+   ]
+  },
+  {
+   "name": "Rareș",
+   "cat": "Pop",
+   "slug": "rares",
+   "booking": [
+    "B",
+    "V"
+   ],
+   "socials": {
+    "instagram": "https://www.instagram.com/raresmaris/?hl=en",
+    "youtube": "https://www.youtube.com/channel/UC0fFhAcvNI5cRgZODXN_29Q",
+    "spotify": "https://open.spotify.com/artist/6Lovpq3UamSOdAbcQAqbz9"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=1_K6tlD2NeQ",
+    "https://www.youtube.com/watch?v=Oz34d66rBWI",
+    "https://www.youtube.com/watch?v=b0Y0Aw8Fqbc"
+   ]
+  },
+  {
+   "name": "BABASHA",
+   "cat": "Pop",
+   "slug": "babasha",
+   "booking": [
+    "B",
+    "V"
+   ],
+   "socials": {},
+   "videos": []
+  },
+  {
+   "name": "Mira",
+   "cat": "Pop",
+   "slug": "mira",
+   "booking": [
+    "B",
+    "C"
+   ],
+   "socials": {
+    "facebook": "https://www.facebook.com/OficialMira",
+    "instagram": "https://www.instagram.com/mira/?hl=en",
+    "youtube": "https://www.youtube.com/@MIRA...",
+    "spotify": "https://open.spotify.com/artist/2nMFC7hWK0haX8ilvRpb59"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=nuxT76ndwYY",
+    "https://www.youtube.com/watch?v=o8_jPaXfxWY",
+    "https://www.youtube.com/watch?v=SEBW2mh1jvY"
+   ]
+  },
+  {
+   "name": "EMAA",
+   "cat": "Pop",
+   "slug": "emaa",
+   "booking": [
+    "V",
+    "B"
+   ],
+   "socials": {
+    "facebook": "https://www.facebook.com/emaasself",
+    "instagram": "https://www.instagram.com/emaasself/?hl=en",
+    "youtube": "https://www.youtube.com/channel/UCPm1DeaST-B6akwduEuJVyQ",
+    "spotify": "https://open.spotify.com/artist/4j4xD0oanPaJMB0BVqsRGE"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=0_KDtjNQwZs",
+    "https://www.youtube.com/watch?v=emI6C2nIKcc",
+    "https://www.youtube.com/watch?v=-UmZFPF6fDs"
+   ]
+  },
+  {
+   "name": "AMI",
+   "cat": "Pop",
+   "slug": "ami",
+   "booking": [
+    "B",
+    "V"
+   ],
+   "socials": {
+    "facebook": "https://www.facebook.com/AMIofficial",
+    "instagram": "https://www.instagram.com/ami_official_insta/?hl=en",
+    "youtube": "https://www.youtube.com/channel/UC6rKRuz5CkWC4l_Al8gZUpQ",
+    "spotify": "https://open.spotify.com/artist/6ZQhxROkDyYGsijIBDBrhF"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=l_yHhemwu2M",
+    "https://www.youtube.com/watch?v=mH19QIQbqR8"
+   ]
+  },
+  {
+   "name": "ȘTEFANIA",
+   "cat": "Pop",
+   "slug": "stefania",
+   "booking": [
+    "B",
+    "V"
+   ],
+   "socials": {
+    "facebook": "https://www.facebook.com/cristinastefaniaoficial/",
+    "instagram": "https://www.instagram.com/cristinaa.stefaniaa/?hl=en",
+    "youtube": "https://www.youtube.com/channel/UCGpH20G7dnADk7AgUE5YNoA",
+    "spotify": "https://open.spotify.com/artist/3GyTyH3aepWj2Z2wC3FqHy"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=5gbvOBS4_zo",
+    "https://www.youtube.com/watch?v=GHPTlJ0pQX0",
+    "https://www.youtube.com/watch?v=8dXVeWuWSsY"
+   ]
+  },
+  {
+   "name": "Florian Rus",
+   "cat": "Pop",
+   "slug": "florian-rus",
+   "booking": [
+    "V",
+    "B"
+   ],
+   "socials": {
+    "facebook": "https://www.facebook.com/florianrusofficial",
+    "instagram": "https://www.instagram.com/florianrus/?hl=en",
+    "youtube": "https://www.youtube.com/channel/UCmOGkmGIji07sLhvC6Mb9Rg",
+    "spotify": "https://open.spotify.com/artist/0UPJKLFhLR0GuiBZBLNAsd"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=onaG0Kf7DAs",
+    "https://www.youtube.com/watch?v=yd--VDZPCYc",
+    "https://www.youtube.com/watch?v=LO19LUvogz0"
+   ]
+  },
+  {
+   "name": "Andrei Ursu (wrs)",
+   "cat": "Pop",
+   "slug": "andrei-ursu-wrs",
+   "booking": [
+    "V",
+    "B"
+   ],
+   "socials": {
+    "facebook": "https://www.facebook.com/andreiursumusic",
+    "instagram": "https://www.instagram.com/andreiursumusic/?hl=en",
+    "youtube": "https://www.youtube.com/@andreiursumusic",
+    "spotify": "https://open.spotify.com/artist/2ej9sGNpApicrgDhJkcPeW"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=8qgt_FPFQaw",
+    "https://www.youtube.com/watch?v=9Wtx4v81xxU",
+    "https://www.youtube.com/watch?v=sd71lS5zWfk"
+   ]
+  },
+  {
+   "name": "Holy Molly",
+   "cat": "Pop",
+   "slug": "holy-molly",
+   "booking": [
+    "V",
+    "B"
+   ],
+   "socials": {
+    "instagram": "https://www.instagram.com/holymolly.guacamolly/?hl=en",
+    "youtube": "https://www.youtube.com/@HolyMollyMusic",
+    "spotify": "https://open.spotify.com/artist/4ljZpmnnnA1ezEdylZuNLK"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=i3655baHbgU",
+    "https://www.youtube.com/watch?v=fcEBN3aHEOg",
+    "https://www.youtube.com/watch?v=tk_vew5zA5c"
+   ]
+  },
+  {
+   "name": "Adi Istrate",
+   "cat": "Pop",
+   "slug": "adi-istrate",
+   "booking": [
+    "B",
+    "V"
+   ],
+   "socials": {
+    "instagram": "https://www.instagram.com/adi_istrate/",
+    "youtube": "https://www.youtube.com/channel/UCiJEzFjpYeRwouIX-pms7sA",
+    "spotify": "https://open.spotify.com/artist/5oB7CsrcdCnwwcHcMHlTjo"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=JkInxcqaS30",
+    "https://www.youtube.com/watch?v=s3giD4Ox40s",
+    "https://www.youtube.com/watch?v=gLGdM43LcUo"
+   ]
+  },
+  {
+   "name": "Tobi Ibitoye",
+   "cat": "Pop",
+   "slug": "tobi-ibitoye",
+   "booking": [
+    "B",
+    "C"
+   ],
+   "management": {
+    "agent": "C"
+   },
+   "socials": {
+    "facebook": "https://www.facebook.com/tobiibitoyee?locale=ro_RO",
+    "instagram": "https://www.instagram.com/tobiibitoyee/",
+    "youtube": "https://www.youtube.com/channel/UCPRY5MEGMzMOkJ7Ooqur2MA",
+    "spotify": "https://open.spotify.com/artist/5gtWFQFiFnp2y50iY1PWbA"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=ZCm6Gty21W4",
+    "https://www.youtube.com/watch?v=g2I5MDYDsTM"
+   ]
+  },
+  {
+   "name": "Eva Timush",
+   "cat": "Pop",
+   "slug": "eva-timush",
+   "booking": [
+    "V"
+   ],
+   "socials": {},
+   "videos": []
+  },
+  {
+   "name": "Zodier",
+   "cat": "Pop",
+   "slug": "zodier",
+   "booking": [
+    "V"
+   ],
+   "socials": {},
+   "videos": []
+  },
+  {
+   "name": "Paraziții",
+   "cat": "Urban Hip-Hop",
+   "slug": "parazitii",
+   "booking": [
+    "M",
+    "C"
+   ],
+   "socials": {
+    "facebook": "https://www.facebook.com/ParazitiiOfficial?locale=ro_RO",
+    "instagram": "https://www.instagram.com/parazitiiofficial/",
+    "youtube": "https://www.youtube.com/@PARAZITII20cmOFICIAL",
+    "spotify": "https://open.spotify.com/artist/4u0tMvazRUSOlvjqzhyLqF"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=VTJmpyxOqyA",
+    "https://www.youtube.com/watch?v=Wyx7iOMEnI4",
+    "https://www.youtube.com/watch?v=7c77z26T3K8"
+   ]
+  },
+  {
+   "name": "Grasu XXL",
+   "cat": "Urban Hip-Hop",
+   "slug": "grasu-xxl",
+   "booking": [
+    "B",
+    "C"
+   ],
+   "socials": {
+    "facebook": "https://www.facebook.com/grasuix?locale=ro_RO",
+    "instagram": "https://www.instagram.com/blanadeurs/",
+    "youtube": "https://www.youtube.com/@OkapiSoundOfficial",
+    "spotify": "https://open.spotify.com/artist/4BMSu3GY2lP8sH0nmrdgGG"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=IZlJ61N3wHI",
+    "https://www.youtube.com/watch?v=RztAbFxoEP0",
+    "https://www.youtube.com/watch?v=A64ILyLnEG0"
+   ]
+  },
+  {
+   "name": "Guess Who",
+   "cat": "Urban Hip-Hop",
+   "slug": "guess-who",
+   "booking": [
+    "B",
+    "C"
+   ],
+   "socials": {
+    "facebook": "https://www.facebook.com/GuessWhoRomania?locale=ro_RO",
+    "instagram": "https://www.instagram.com/guesswhoromania/",
+    "youtube": "https://www.youtube.com/@OkapiSoundOfficial",
+    "spotify": "https://open.spotify.com/artist/2CIhA8Jh3xrpFrHYMjYzBy"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=iXvkhA2WBQI",
+    "https://www.youtube.com/watch?v=m0bt_9Qiznc",
+    "https://www.youtube.com/watch?v=KBvQcbDEjlM"
+   ]
+  },
+  {
+   "name": "Puya",
+   "cat": "Urban Hip-Hop",
+   "slug": "puya",
+   "booking": [
+    "C",
+    "B"
+   ],
+   "socials": {
+    "facebook": "https://www.facebook.com/puyaoficial?locale=ro_RO",
+    "instagram": "https://www.instagram.com/puya_dragos/",
+    "youtube": "https://www.youtube.com/channel/UC-vb-BSn9CUgoDS8mav1b-Q",
+    "spotify": "https://open.spotify.com/artist/0Dn3AfYwq9cWRhDqtfelNE"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=vrZBfTyBgNE",
+    "https://www.youtube.com/watch?v=CqQO2_hNc4s",
+    "https://www.youtube.com/watch?v=rvhqsqmzm20"
+   ]
+  },
+  {
+   "name": "La Familia",
+   "cat": "Urban Hip-Hop",
+   "slug": "la-familia",
+   "booking": [
+    "B",
+    "C"
+   ],
+   "socials": {
+    "facebook": "https://www.facebook.com/lafamiliaofficial?locale=ro_RO",
+    "instagram": "https://www.instagram.com/trupalafamilia/",
+    "youtube": "https://www.youtube.com/channel/UCvuouRCC9pp01vu4nkWCMlw",
+    "spotify": "https://open.spotify.com/artist/0MBEd6qd0GmDdDW8Pyftuv"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=HJ4RC4_CfMs",
+    "https://www.youtube.com/watch?v=3IRpfht3X50",
+    "https://www.youtube.com/watch?v=C_NSpMxXbnI"
+   ]
+  },
+  {
+   "name": "Vescan",
+   "cat": "Urban Hip-Hop",
+   "slug": "vescan",
+   "booking": [
+    "C",
+    "B"
+   ],
+   "socials": {
+    "facebook": "https://www.facebook.com/VescanOfficial?locale=ro_RO",
+    "instagram": "https://www.instagram.com/vescanofficial/",
+    "youtube": "https://www.youtube.com/@vescanofficial",
+    "spotify": "https://open.spotify.com/artist/5V5qYIV17KGvP5vSMaoY4Y"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=HhRfGlsP2_4",
+    "https://www.youtube.com/watch?v=WKAGWRkfhBc",
+    "https://www.youtube.com/watch?v=xYpG2kTNqnc"
+   ]
+  },
+  {
+   "name": "Dan Gerosu",
+   "cat": "Urban Hip-Hop",
+   "slug": "dan-gerosu",
+   "booking": [
+    "A",
+    "C"
+   ],
+   "nou": true,
+   "socials": {
+    "facebook": "https://www.facebook.com/dangerosuofficial?locale=ro_RO",
+    "instagram": "https://www.instagram.com/dangerosuofficial/",
+    "youtube": "https://www.youtube.com/@DanGerosuOfficial",
+    "spotify": "https://open.spotify.com/artist/3YNqXDBdoPOd3w09TjJBFb"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=1Lmohe6DMgA",
+    "https://www.youtube.com/watch?v=22rXte1IwZ0",
+    "https://www.youtube.com/watch?v=plgVEevX2oM"
+   ]
+  },
+  {
+   "name": "Șatra B.E.N.Z.",
+   "cat": "Urban Trap",
+   "slug": "satra-b-e-n-z",
+   "booking": [
+    "A",
+    "C"
+   ],
+   "socials": {
+    "facebook": "https://www.facebook.com/satrabenz?locale=ro_RO",
+    "instagram": "https://www.instagram.com/satrabenz/",
+    "youtube": "https://www.youtube.com/channel/UCq4ei2v3wm3Q6IDYJ8pmSFw",
+    "spotify": "https://open.spotify.com/artist/3ZxemCGQmRuqoBPhQP5Gut"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=u7Vjhr-ioh4",
+    "https://www.youtube.com/watch?v=yF9WKBETNBU",
+    "https://www.youtube.com/watch?v=lcYFEuU5fv4"
+   ]
+  },
+  {
+   "name": "Killa Fonic",
+   "cat": "Urban Trap",
+   "slug": "killa-fonic",
+   "booking": [
+    "B",
+    "V"
+   ],
+   "socials": {
+    "instagram": "https://www.instagram.com/killafonic/",
+    "youtube": "https://www.youtube.com/@killafonicofficial",
+    "spotify": "https://open.spotify.com/artist/20SBqzpuFoymhieHTNHUgl"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=fbBL6o12YMU",
+    "https://www.youtube.com/watch?v=v0RDVnc4sJI",
+    "https://www.youtube.com/watch?v=NLBIl0Mhz58"
+   ]
+  },
+  {
+   "name": "Petre Ștefan",
+   "cat": "Urban Trap",
+   "slug": "petre-stefan",
+   "booking": [
+    "A",
+    "B"
+   ],
+   "socials": {
+    "instagram": "https://www.instagram.com/petrestefan_11/",
+    "youtube": "https://www.youtube.com/@PetreStefan11",
+    "spotify": "https://open.spotify.com/artist/0yjc2FN5zju7xyuJsTfGkh"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=Y2p0RctLGwM",
+    "https://www.youtube.com/watch?v=lbkT9SbE7Xs",
+    "https://www.youtube.com/watch?v=Txmt6pP9rXA"
+   ]
+  },
+  {
+   "name": "IDK",
+   "cat": "Urban Trap",
+   "slug": "idk",
+   "booking": [
+    "A",
+    "B"
+   ],
+   "socials": {
+    "instagram": "https://www.instagram.com/idkxsh/",
+    "youtube": "https://www.youtube.com/@idcash",
+    "spotify": "https://open.spotify.com/artist/6nyKhzPeKV9pzpYN0malXP"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=z1HZqi4D1lE",
+    "https://www.youtube.com/watch?v=a9Aj_SR86eQ",
+    "https://www.youtube.com/watch?v=2VE8jWaUeB8"
+   ]
+  },
+  {
+   "name": "Albert NBN",
+   "cat": "Urban Trap",
+   "slug": "albert-nbn",
+   "booking": [
+    "A",
+    "B"
+   ],
+   "socials": {
+    "instagram": "https://www.instagram.com/itsbetobih/",
+    "youtube": "https://www.youtube.com/@AlbertNbn",
+    "spotify": "https://open.spotify.com/artist/33CSqdyro89aOFiZb5fU5U"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=PYcbbB8lSoA",
+    "https://www.youtube.com/watch?v=4Z-kRknt7RY",
+    "https://www.youtube.com/watch?v=YWYxcHXo6qQ"
+   ]
+  },
+  {
+   "name": "MARKO GLASS",
+   "cat": "Urban Trap",
+   "slug": "marko-glass",
+   "booking": [
+    "B",
+    "C"
+   ],
+   "socials": {},
+   "videos": []
+  },
+  {
+   "name": "BVCOVIA",
+   "cat": "Urban Trap",
+   "slug": "bvcovia",
+   "booking": [
+    "B",
+    "C"
+   ],
+   "socials": {},
+   "videos": []
+  },
+  {
+   "name": "Bruja",
+   "cat": "Urban Trap",
+   "slug": "bruja",
+   "booking": [
+    "A",
+    "C"
+   ],
+   "nou": true,
+   "socials": {
+    "facebook": "https://www.facebook.com/BRUJAHAHAHA?locale=ro_RO",
+    "instagram": "https://www.instagram.com/brujxa/",
+    "youtube": "https://www.youtube.com/channel/UC3JCLvsuczKbazWz-SOLPGg",
+    "spotify": "https://open.spotify.com/artist/6yoocPjo7xJwFxSvbZYUT9"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=e0Opr0inzT4",
+    "https://www.youtube.com/watch?v=3r0UPOz1z5U",
+    "https://www.youtube.com/watch?v=vueYnXdhESc"
+   ]
+  },
+  {
+   "name": "Nouă Unșpe (911)",
+   "cat": "Urban Trap",
+   "slug": "noua-unspe-911",
+   "booking": [
+    "A",
+    "B"
+   ],
+   "socials": {
+    "instagram": "https://www.instagram.com/nouaunspe/",
+    "youtube": "https://www.youtube.com/@911-nouaunspe",
+    "spotify": "https://open.spotify.com/artist/1fYKCWegShlSGe4yATnpdp"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=6pQUOskGfno",
+    "https://www.youtube.com/watch?v=79KmC6vBT9o",
+    "https://www.youtube.com/watch?v=aIb5uyz-fKw"
+   ]
+  },
+  {
+   "name": "Tussin",
+   "cat": "Urban Trap",
+   "slug": "tussin",
+   "booking": [
+    "A",
+    "B"
+   ],
+   "socials": {
+    "instagram": "https://www.instagram.com/robii_tussin/",
+    "youtube": "https://www.youtube.com/@Robii_Tussin/featured",
+    "spotify": "https://open.spotify.com/artist/5DcOHhTZVih46OXGXHeSGb"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=8t27bqsFe5w",
+    "https://www.youtube.com/watch?v=3xb_U23WNMM",
+    "https://www.youtube.com/watch?v=eaG8U2h2uQk"
+   ]
+  },
+  {
+   "name": "HVNDS",
+   "cat": "Rock/Indie/Alternativ",
+   "slug": "hvnds",
+   "booking": [
+    "C",
+    "A"
+   ],
+   "management": {
+    "agent": "C"
+   },
+   "nota": "mutat din Urban Trap (site vechi) în Rock",
+   "socials": {
+    "facebook": "https://www.facebook.com/hvnds?locale=ro_RO",
+    "instagram": "https://www.instagram.com/hvndsofficial/",
+    "youtube": "https://www.youtube.com/channel/UCx3469TUEuwzfdNE3WmE_vg",
+    "spotify": "https://open.spotify.com/artist/46N42YdqniE8UPy3fODQRt"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=3yVtVUxaydo",
+    "https://www.youtube.com/watch?v=DvxDiQkCZT0",
+    "https://www.youtube.com/watch?v=nyfFYMSTNlg"
+   ]
+  },
+  {
+   "name": "Mihai Mărgineanu",
+   "cat": "Rock/Indie/Alternativ",
+   "slug": "mihai-margineanu",
+   "booking": [
+    "C",
+    "M"
+   ],
+   "nou": true,
+   "socials": {},
+   "videos": []
+  },
+  {
+   "name": "Vlad Corb",
+   "cat": "Rock/Indie/Alternativ",
+   "slug": "vlad-corb",
+   "booking": [
+    "C",
+    "O"
+   ],
+   "management": {
+    "agent": "C"
+   },
+   "epicenter": true,
+   "nou": true,
+   "socials": {},
+   "videos": []
+  },
+  {
+   "name": "White Mahala",
+   "cat": "Rock/Indie/Alternativ",
+   "slug": "white-mahala",
+   "booking": [
+    "A",
+    "O"
+   ],
+   "epicenter": true,
+   "nou": true,
+   "socials": {},
+   "videos": []
+  },
+  {
+   "name": "Lupii lui Calancea",
+   "cat": "Rock/Indie/Alternativ",
+   "slug": "lupii-lui-calancea",
+   "booking": [
+    "C",
+    "V"
+   ],
+   "nou": true,
+   "socials": {},
+   "videos": []
+  },
+  {
+   "name": "RATB",
+   "cat": "Rock/Indie/Alternativ",
+   "slug": "ratb",
+   "booking": [
+    "O",
+    "T"
+   ],
+   "epicenter": true,
+   "by_epicenter": true,
+   "nou": true,
+   "socials": {},
+   "videos": []
+  },
+  {
+   "name": "The Kriptonite Sparks",
+   "cat": "Rock/Indie/Alternativ",
+   "slug": "the-kriptonite-sparks",
+   "booking": [
+    "O",
+    "T"
+   ],
+   "epicenter": true,
+   "by_epicenter": true,
+   "nou": true,
+   "socials": {},
+   "videos": []
+  },
+  {
+   "name": "Nuanțe",
+   "cat": "Rock/Indie/Alternativ",
+   "slug": "nuante",
+   "booking": [
+    "O",
+    "T"
+   ],
+   "epicenter": true,
+   "by_epicenter": true,
+   "nou": true,
+   "socials": {},
+   "videos": []
+  },
+  {
+   "name": "Bob Ramanka",
+   "cat": "Rock/Indie/Alternativ",
+   "slug": "bob-ramanka",
+   "booking": [
+    "T",
+    "O"
+   ],
+   "epicenter": true,
+   "by_epicenter": true,
+   "nou": true,
+   "socials": {},
+   "videos": []
+  },
+  {
+   "name": "Omul cu Șobolani",
+   "cat": "Rock/Indie/Alternativ",
+   "slug": "omul-cu-sobolani",
+   "booking": [
+    "T",
+    "O"
+   ],
+   "epicenter": true,
+   "by_epicenter": true,
+   "nou": true,
+   "socials": {},
+   "videos": []
+  },
+  {
+   "name": "Manuel Riva",
+   "cat": "DJ",
+   "slug": "manuel-riva",
+   "booking": [
+    "C",
+    "B"
+   ],
+   "management": {
+    "agent": "C"
+   },
+   "socials": {
+    "facebook": "https://www.facebook.com/djmanuelriva?locale=ro_RO",
+    "instagram": "https://www.instagram.com/djmanuelriva/",
+    "youtube": "https://www.youtube.com/@ManuelRiva",
+    "spotify": "https://open.spotify.com/artist/2hkGkEnyudpE42IU4DBt99"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=VSX_ufd2pZk",
+    "https://www.youtube.com/watch?v=eNpLz5-J_rw",
+    "https://www.youtube.com/watch?v=2w7pZO0VTug"
+   ]
+  },
+  {
+   "name": "Andre Rizo",
+   "cat": "DJ",
+   "slug": "andre-rizo",
+   "booking": [
+    "B",
+    "C"
+   ],
+   "management": {
+    "agent": "B"
+   },
+   "socials": {
+    "facebook": "https://www.facebook.com/AndreRizoOffical?locale=ro_RO",
+    "instagram": "https://www.instagram.com/andrerizo/",
+    "youtube": "https://www.youtube.com/@andrerizo",
+    "spotify": "https://open.spotify.com/artist/09ZLAt4mZJwxy0vWB0703w"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=h9llv8jYLvw",
+    "https://www.youtube.com/watch?v=2-fTWxwpo2s",
+    "https://www.youtube.com/watch?v=byNcco_8e1U"
+   ]
+  },
+  {
+   "name": "Albwho",
+   "cat": "DJ",
+   "slug": "alb-who",
+   "booking": [
+    "C",
+    "B"
+   ],
+   "management": {
+    "agent": "C"
+   },
+   "socials": {
+    "facebook": "https://www.facebook.com/albwhobeats?locale=ro_RO",
+    "instagram": "https://www.instagram.com/albwho/",
+    "youtube": "https://www.youtube.com/@ALBWHO",
+    "spotify": "https://open.spotify.com/artist/1gKMA54tfPeStFBKsNl2t2"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=eFK6Oog2r44",
+    "https://www.youtube.com/watch?v=sTcvHtU8Zac",
+    "https://www.youtube.com/watch?v=l3-VXXTioA4"
+   ]
+  },
+  {
+   "name": "Andrew Dum",
+   "cat": "DJ",
+   "slug": "andrew-dum",
+   "booking": [
+    "B",
+    "C"
+   ],
+   "management": {
+    "agent": "B"
+   },
+   "socials": {
+    "facebook": "https://www.facebook.com/andrei.dumitriu1?locale=ro_RO",
+    "instagram": "https://www.instagram.com/andrewdumusic/",
+    "youtube": "https://www.youtube.com/@AndrewDum",
+    "spotify": "https://open.spotify.com/artist/2zM7bifXg4U3VopmsgSJVg"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=g7wk-dz-_DE",
+    "https://www.youtube.com/watch?v=_ZB2mOWfTJQ",
+    "https://www.youtube.com/watch?v=76GW-JOPTws"
+   ]
+  },
+  {
+   "name": "Speak",
+   "cat": "DJ",
+   "slug": "speak",
+   "booking": [
+    "B",
+    "V"
+   ],
+   "socials": {
+    "facebook": "https://www.facebook.com/speakofficial",
+    "instagram": "https://www.instagram.com/iamspeak/?hl=en",
+    "youtube": "https://www.youtube.com/@SPEAKofficial",
+    "spotify": "https://open.spotify.com/artist/4FMubIN9hLd0gLL7e9lXEi"
+   },
+   "videos": [
+    "https://www.youtube.com/watch?v=EDDZ-9t_r68",
+    "https://www.youtube.com/watch?v=te1eHFm7dEk",
+    "https://www.youtube.com/watch?v=QvQmr4-_uc4"
+   ]
+  },
+  {
+   "name": "Deliah",
+   "cat": "DJ",
+   "slug": "deliah",
+   "booking": [
+    "C",
+    "B"
+   ],
+   "management": {
+    "agent": "C"
+   },
+   "nou": true,
+   "socials": {},
+   "videos": []
+  },
+  {
+   "name": "Bad And Boujee Party",
+   "cat": "DJ",
+   "slug": "bad-and-boujee-party",
+   "booking": [
+    "A",
+    "C"
+   ],
+   "socials": {
+    "facebook": "https://www.facebook.com/badandboujeeparty?locale=ro_RO",
+    "instagram": "https://www.instagram.com/badandboujeetheparty/",
+    "youtube": "https://www.youtube.com/@BadandBoujeeParty"
+   },
+   "videos": []
+  },
+  {
+   "name": "Chris Hype",
+   "cat": "DJ",
+   "slug": "chris-hype",
+   "booking": [
+    "C",
+    "B"
+   ],
+   "socials": {
+    "facebook": "https://www.facebook.com/ChrisHypeOfficial?locale=ro_RO",
+    "instagram": "https://www.instagram.com/iamchrishype/",
+    "youtube": "https://www.youtube.com/@chrishype6654"
+   },
+   "videos": []
+  }
+ ],
+ "iesiti_fata_de_site_vechi": [],
+ "contacts": {
+  "booking": "booking@forward.ro",
+  "informatii": "contact@forward.ro",
+  "financiar": "financiar@forward.ro",
+  "legal": "giulia@forward.ro",
+  "de_creat": [
+   "demo@forward.ro",
+   "cariere@forward.ro"
+  ],
+  "de_eliminat_la_migrare": [
+   "hr@globalrecords.com",
+   "booking@globalrecords.com"
+  ]
+ }
+}
