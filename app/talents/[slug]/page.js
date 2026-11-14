@@ -62,8 +62,10 @@ export default async function ArtistPage({ params }) {
                   <Link href="/?cat=epi#c2">Forward × Epicenter</Link>
     </>
               )}
-{' · '}
-<Link href={`/en/talents/${a.slug}/`}>EN</Link>
+          <span className="lsw2" aria-label="Limbă / Language">
+              <span className="on">RO</span>
+              <Link href={`/en/talents/${a.slug}/`}>EN</Link>
+              </span>
 </div>
         <h1>{a.name}</h1>
         <div className="badges">
