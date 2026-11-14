@@ -445,12 +445,11 @@
    "name": "Zodier",
    "cat": "Pop",
    "slug": "zodier",
-   "videos": ["https://www.youtube.com/watch?v=ESachkyVw6U", "https://www.youtube.com/watch?v=IWunVoIBTvs", "https://www.youtube.com/watch?v=3ziISTdrQMg"],
    "booking": [
     "V"
    ],
    "socials": {},
-   "videos": []
+   "videos": ["https://www.youtube.com/watch?v=ESachkyVw6U", "https://www.youtube.com/watch?v=IWunVoIBTvs", "https://www.youtube.com/watch?v=3ziISTdrQMg"]
   },
   {
    "name": "Paraziții",
@@ -798,20 +797,18 @@
    "name": "Mihai Mărgineanu",
    "cat": "Rock/Indie/Alternativ",
    "slug": "mihai-margineanu",
-   "videos": ["https://www.youtube.com/watch?v=ybDwHGy5Mt4", "https://www.youtube.com/watch?v=KYYJ8vmswT0", "https://www.youtube.com/watch?v=l3GxO3FV-jo"],
    "booking": [
     "C",
     "M"
    ],
    "nou": true,
    "socials": {},
-   "videos": []
+   "videos": ["https://www.youtube.com/watch?v=ybDwHGy5Mt4", "https://www.youtube.com/watch?v=KYYJ8vmswT0", "https://www.youtube.com/watch?v=l3GxO3FV-jo"]
   },
   {
    "name": "Vlad Corb",
    "cat": "Rock/Indie/Alternativ",
    "slug": "vlad-corb",
-   "videos": ["https://www.youtube.com/watch?v=tWVaE77K8z8", "https://www.youtube.com/watch?v=A9kppF4AhI8", "https://www.youtube.com/watch?v=kv1AAjp086E"],
    "booking": [
     "C",
     "O"
@@ -822,13 +819,12 @@
    "epicenter": true,
    "nou": true,
    "socials": {},
-   "videos": []
+   "videos": ["https://www.youtube.com/watch?v=tWVaE77K8z8", "https://www.youtube.com/watch?v=A9kppF4AhI8", "https://www.youtube.com/watch?v=kv1AAjp086E"]
   },
   {
    "name": "White Mahala",
    "cat": "Rock/Indie/Alternativ",
    "slug": "white-mahala",
-   "videos": ["https://www.youtube.com/watch?v=1uldbfT264k", "https://www.youtube.com/watch?v=PhMhcJxWlsU", "https://www.youtube.com/watch?v=9dfOG36W5pc"],
    "booking": [
     "A",
     "O"
@@ -836,26 +832,24 @@
    "epicenter": true,
    "nou": true,
    "socials": {},
-   "videos": []
+   "videos": ["https://www.youtube.com/watch?v=1uldbfT264k", "https://www.youtube.com/watch?v=PhMhcJxWlsU", "https://www.youtube.com/watch?v=9dfOG36W5pc"]
   },
   {
    "name": "Lupii lui Calancea",
    "cat": "Rock/Indie/Alternativ",
    "slug": "lupii-lui-calancea",
-   "videos": ["https://www.youtube.com/watch?v=W24dxzhkjO8", "https://www.youtube.com/watch?v=3RlRvaYfVXM", "https://www.youtube.com/watch?v=ylttEny5rJg"],
    "booking": [
     "C",
     "V"
    ],
    "nou": true,
    "socials": {},
-   "videos": []
+   "videos": ["https://www.youtube.com/watch?v=W24dxzhkjO8", "https://www.youtube.com/watch?v=3RlRvaYfVXM", "https://www.youtube.com/watch?v=ylttEny5rJg"]
   },
   {
           "name": "Robin and the Backstabbers",
    "cat": "Rock/Indie/Alternativ",
    "slug": "ratb",
-   "videos": ["https://www.youtube.com/watch?v=P8MdHqSTisU", "https://www.youtube.com/watch?v=s7MVecqT4CA", "https://www.youtube.com/watch?v=Ix_mEMgZSBI"],
    "booking": [
     "O",
     "T"
@@ -864,13 +858,12 @@
    "by_epicenter": true,
    "nou": true,
    "socials": {},
-   "videos": []
+   "videos": ["https://www.youtube.com/watch?v=P8MdHqSTisU", "https://www.youtube.com/watch?v=s7MVecqT4CA", "https://www.youtube.com/watch?v=Ix_mEMgZSBI"]
   },
   {
       "name": "The Kryptonite Sparks",
    "cat": "Rock/Indie/Alternativ",
    "slug": "the-kriptonite-sparks",
-   "videos": ["https://www.youtube.com/watch?v=TfDyeRJfjwI", "https://www.youtube.com/watch?v=ODujDdpusCo", "https://www.youtube.com/watch?v=e4CYGnRrBPU"],
    "booking": [
     "O",
     "T"
@@ -879,13 +872,12 @@
    "by_epicenter": true,
    "nou": true,
    "socials": {},
-   "videos": []
+   "videos": ["https://www.youtube.com/watch?v=TfDyeRJfjwI", "https://www.youtube.com/watch?v=ODujDdpusCo", "https://www.youtube.com/watch?v=e4CYGnRrBPU"]
   },
   {
    "name": "Nuanțe",
    "cat": "Rock/Indie/Alternativ",
    "slug": "nuante",
-   "videos": ["https://www.youtube.com/watch?v=TYTA-ZTzy-E", "https://www.youtube.com/watch?v=3grEZZNcb_E", "https://www.youtube.com/watch?v=9oxQwXmczzA"],
    "booking": [
     "O",
     "T"
@@ -894,13 +886,12 @@
    "by_epicenter": true,
    "nou": true,
    "socials": {},
-   "videos": []
+   "videos": ["https://www.youtube.com/watch?v=TYTA-ZTzy-E", "https://www.youtube.com/watch?v=3grEZZNcb_E", "https://www.youtube.com/watch?v=9oxQwXmczzA"]
   },
   {
    "name": "Bob Ramanka",
    "cat": "Rock/Indie/Alternativ",
    "slug": "bob-ramanka",
-   "videos": ["https://www.youtube.com/watch?v=4lk0qTnhanE", "https://www.youtube.com/watch?v=cJQ58h08jwk", "https://www.youtube.com/watch?v=oHhmTK7uN6s"],
    "booking": [
     "T",
     "O"
@@ -909,13 +900,12 @@
    "by_epicenter": true,
    "nou": true,
    "socials": {},
-   "videos": []
+   "videos": ["https://www.youtube.com/watch?v=4lk0qTnhanE", "https://www.youtube.com/watch?v=cJQ58h08jwk", "https://www.youtube.com/watch?v=oHhmTK7uN6s"]
   },
   {
    "name": "Omul cu Șobolani",
    "cat": "Rock/Indie/Alternativ",
    "slug": "omul-cu-sobolani",
-   "videos": ["https://www.youtube.com/watch?v=yN53KCcL8DY", "https://www.youtube.com/watch?v=5dbeMmABsMA", "https://www.youtube.com/watch?v=Hxf767E4ePE"],
    "booking": [
     "T",
     "O"
@@ -924,7 +914,7 @@
    "by_epicenter": true,
    "nou": true,
    "socials": {},
-   "videos": []
+   "videos": ["https://www.youtube.com/watch?v=yN53KCcL8DY", "https://www.youtube.com/watch?v=5dbeMmABsMA", "https://www.youtube.com/watch?v=Hxf767E4ePE"]
   },
   {
    "name": "Manuel Riva",
@@ -1057,7 +1047,6 @@
    "name": "Bad And Boujee Party",
    "cat": "DJ",
    "slug": "bad-and-boujee-party",
-   "videos": ["https://www.youtube.com/watch?v=-Zcv8B1z5fU", "https://www.youtube.com/watch?v=rYKfWTNUmzY", "https://www.youtube.com/watch?v=P9v14nLYVZs"],
    "booking": [
     "A",
     "C"
@@ -1067,13 +1056,12 @@
     "instagram": "https://www.instagram.com/badandboujeetheparty/",
     "youtube": "https://www.youtube.com/@BadandBoujeeParty"
    },
-   "videos": []
+   "videos": ["https://www.youtube.com/watch?v=-Zcv8B1z5fU", "https://www.youtube.com/watch?v=rYKfWTNUmzY", "https://www.youtube.com/watch?v=P9v14nLYVZs"]
   },
   {
    "name": "Chris Hype",
    "cat": "DJ",
    "slug": "chris-hype",
-   "videos": ["https://www.youtube.com/watch?v=qlFCw5A_Lk0", "https://www.youtube.com/watch?v=n5zkDMmEVew"],
    "booking": [
     "C",
     "B"
@@ -1083,7 +1071,7 @@
     "instagram": "https://www.instagram.com/iamchrishype/",
     "youtube": "https://www.youtube.com/@chrishype6654"
    },
-   "videos": []
+   "videos": ["https://www.youtube.com/watch?v=qlFCw5A_Lk0", "https://www.youtube.com/watch?v=n5zkDMmEVew"]
   }
  ],
  "iesiti_fata_de_site_vechi": [],
