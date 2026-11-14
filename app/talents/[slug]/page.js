@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ROSTER, bySlug, agentsOf, managerOf } from '../../../lib/data';
+import { ROSTER, bySlug, agentsOf, managerOf, sorted } from '../../../lib/data';
+import CopyBtn from '../../../components/CopyBtn';
 
 export function generateStaticParams() {
     return ROSTER.map((a) => ({ slug: a.slug }));
@@ -23,6 +24,9 @@ export default async function ArtistPage({ params }) {
     if (!a) notFound();
     const agents = agentsOf(a);
     const mgr = managerOf(a);
+      const idx = sorted.findIndex((x) => x.slug === a.slug);
+    const prev = sorted[(idx - 1 + sorted.length) % sorted.length];
+    const next = sorted[(idx + 1) % sorted.length];
 
   const ld = {
         '@context': 'https://schema.org',
@@ -38,7 +42,7 @@ export default async function ArtistPage({ params }) {
           <nav className="anav">
             <Link className="back" href="/#c2">← toți artiștii</Link>
           <Link className="logo" href="/">Forward<i>.</i></Link>
-            <a className="back" href="mailto:booking@forward.ro">booking@forward.ro</a>
+                    <a className="back" href="mailto:booking@forward.ro?subject=Cerere booking">booking@forward.ro</a>
     </nav>
         <article className="apage">
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
@@ -82,11 +86,15 @@ export default async function ArtistPage({ params }) {
         {agents.map((g) => (
                       <div className="agent" key={g.email}>
               <b>{g.name}</b>
-              <span>{g.email}</span>
+                            <span>
+        {g.email}
+            <CopyBtn text={g.email} />
+            </span>
               <a href={`mailto:${g.email}?subject=Booking ${a.name}`}>scrie-i →</a>
           </div>
           ))}
             </div>
+        <p className="sla">Răspundem în următoarea zi lucrătoare.</p>
 
 {(a.socials?.instagram || a.socials?.youtube || a.socials?.spotify || a.socials?.facebook || a.socials?.tiktok || a.socials?.web) && (
             <>
@@ -121,7 +129,11 @@ export default async function ArtistPage({ params }) {
   </div>
   </>
         )}
-
+        <nav className="pn" aria-label="Alt artist din monografie">
+                      <Link href={`/talents/${prev.slug}/`}>← {prev.name}</Link>
+                      <Link href={`/talents/${next.slug}/`}>{next.name} →</Link>
+            </nav>
+            
         <div className="afoot">
                     <span>© {new Date().getFullYear()} Forward Music Agency SRL</span>
           <Link href="/#c2">tot rosterul →</Link>
