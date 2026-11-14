@@ -38,8 +38,10 @@ export const metadata = {
                                                                                                                                                             Bucharest · founded 2014
                                                                                                                                                                       <br />
                                                                                                                                                                                 <a href="mailto:booking@forward.ro?subject=Booking inquiry">booking@forward.ro</a>
-                                                                                                                                                                                          <br />
-                                                                                                                                                                                                    <Link className="lsw" href="/">citește în română →</Link>
+                                                                                                              <span className="lsw2" aria-label="Limbă / Language">
+                            <Link href="/">RO</Link>
+                            <span className="on">EN</span>
+                            </span>
                                                                                                                                                                                                             </div>
                                                                                                                                                                                                                   </aside>
                                                                                                                                                                                                                         <Scrollspy />
