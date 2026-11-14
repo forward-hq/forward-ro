@@ -164,10 +164,10 @@ export default function Home() {
             <div className="cr"><span className="l">Booking</span><span><a href="mailto:booking@forward.ro">booking@forward.ro</a></span></div>
             <div className="cr"><span className="l">Informații</span><span><a href="mailto:contact@forward.ro">contact@forward.ro</a></span></div>
             <div className="cr"><span className="l">Financiar</span><span><a href="mailto:financiar@forward.ro">financiar@forward.ro</a></span></div>
-            <div className="cr"><span className="l">Legal</span><span><a href="mailto:giulia@forward.ro">giulia@forward.ro</a></span></div>
+                        <div className="cr"><span className="l">Legal</span><span><a href="mailto:legal@forward.ro">legal@forward.ro</a></span></div>
             <div className="cr"><span className="l">Demo-uri</span><span><a href="mailto:demo@forward.ro">demo@forward.ro</a></span></div>
             <div className="cr"><span className="l">Cariere</span><span><a href="mailto:cariere@forward.ro">cariere@forward.ro</a></span></div>
-            <div className="cr"><span className="l">Presă</span><span><a href="mailto:contact@forward.ro">contact@forward.ro</a> · logo &amp; boilerplate — kit de presă</span></div>
+                        <div className="cr"><span className="l">Presă</span><span><a href="mailto:contact@forward.ro">contact@forward.ro</a></span></div>
             <div className="cr"><span className="l">Sediu</span><span>București, România</span></div>
             <div className="cr"><span className="l">Entitate</span><span>Forward Music Agency SRL · fondată 2014</span></div>
             <div className="cr"><span className="l">Familia Forward</span><span>Forward Music (acest site) · <a href="https://forwardsports.ro" target="_blank" rel="noopener">Forward Sports</a> · <a href="https://www.urban-events.ro" target="_blank" rel="noopener">Urban Events</a> · <a href="https://www.epicenter-hub.com" target="_blank" rel="noopener">Epicenter Hub</a></span></div>
