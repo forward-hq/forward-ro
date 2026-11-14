@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import RosterIndex from '../components/RosterIndex';
 import Manifesto from '../components/Manifesto';
+import Scrollspy from '../components/Scrollspy';
+import MobileToc from '../components/MobileToc';
 import { managed, managerOf } from '../lib/data';
 
 export const metadata = { alternates: { canonical: '/' } };
@@ -24,14 +26,15 @@ export default function Home() {
         <div className="foot">
           București · fondată 2014
           <br />
-          <a href="mailto:booking@forward.ro">booking@forward.ro</a>
+                    <a href="mailto:booking@forward.ro?subject=Cerere booking">booking@forward.ro</a>
         </div>
       </aside>
+          <Scrollspy />
 
       <div className="mnav">
         <span className="logo">Forward<i>.</i></span>
-        <a className="m" href="#c2">artiștii</a>
-        <a className="m" href="mailto:booking@forward.ro">booking@forward.ro</a>
+                <MobileToc />
+                <a className="m" href="mailto:booking@forward.ro?subject=Cerere booking">booking@forward.ro</a>
       </div>
       <a className="corner" href="#" aria-label="Înapoi sus">Forward<i>.</i></a>
     
@@ -62,11 +65,11 @@ export default function Home() {
 
         <section className="chapter" id="c2">
           <div className="ck"><span className="num">02</span><span className="t">Artiștii — de la A la Z</span></div>
-          <RosterIndex />
+        <RosterIndex />
           <div className="door">
-            <b>Ești artist?</b> Lista asta crește. Trimite-ne muzica ta:{' '}
-            <a href="mailto:demo@forward.ro">demo@forward.ro</a> — ascultăm tot
-            ce primim și răspundem la ce ne mișcă.
+            <b>Ești artist?</b> Lista asta crește. Trimite-ne muzica ta —
+                        ascultăm tot ce primim și răspundem la ce ne mișcă.
+                          <a className="doorbtn" href="mailto:demo@forward.ro?subject=Demo — [numele tău]">demo@forward.ro →</a>
           </div>
         </section>
 
@@ -120,13 +123,14 @@ export default function Home() {
           </div>
           <p className="tnote">
             Fără formulare de contact. Scrii direct omului care se ocupă — iar
-            dacă nu știi cui, <a href="mailto:booking@forward.ro">booking@forward.ro</a>{' '}
+                        dacă nu știi cui, <a href="mailto:booking@forward.ro?subject=Cerere booking">booking@forward.ro</a>{' '}
             ajunge la agentul potrivit, cu răspuns în următoarea zi lucrătoare.
           </p>
           <div className="door">
             <b>Vrei să lucrezi la Forward?</b> Nu ținem anunțuri deschise
             permanent — când căutăm pe cineva, anunțăm aici. Dar citim tot ce
-            primim, oricând: <a href="mailto:cariere@forward.ro">cariere@forward.ro</a>.
+                        primim, oricând.
+                          <a className="doorbtn" href="mailto:cariere@forward.ro?subject=Vreau în echipa Forward">cariere@forward.ro →</a>
           </div>
         </section>
 
@@ -160,12 +164,12 @@ export default function Home() {
           <div className="ck"><span className="num">07</span><span className="t">Contact &amp; colofon</span></div>
           <div className="big">FWD<i>.</i></div>
           <div className="rows">
-            <div className="cr"><span className="l">Booking</span><span><a href="mailto:booking@forward.ro">booking@forward.ro</a></span></div>
+                        <div className="cr"><span className="l">Booking</span><span><a href="mailto:booking@forward.ro?subject=Cerere booking">booking@forward.ro</a></span></div>
             <div className="cr"><span className="l">Informații</span><span><a href="mailto:contact@forward.ro">contact@forward.ro</a></span></div>
             <div className="cr"><span className="l">Financiar</span><span><a href="mailto:financiar@forward.ro">financiar@forward.ro</a></span></div>
                         <div className="cr"><span className="l">Legal</span><span><a href="mailto:legal@forward.ro">legal@forward.ro</a></span></div>
-            <div className="cr"><span className="l">Demo-uri</span><span><a href="mailto:demo@forward.ro">demo@forward.ro</a></span></div>
-            <div className="cr"><span className="l">Cariere</span><span><a href="mailto:cariere@forward.ro">cariere@forward.ro</a></span></div>
+                        <div className="cr"><span className="l">Demo-uri</span><span><a href="mailto:demo@forward.ro?subject=Demo — [numele tău]">demo@forward.ro</a></span></div>
+                        <div className="cr"><span className="l">Cariere</span><span><a href="mailto:cariere@forward.ro?subject=Vreau în echipa Forward">cariere@forward.ro</a></span></div>
                         <div className="cr"><span className="l">Presă</span><span><a href="mailto:contact@forward.ro">contact@forward.ro</a></span></div>
             <div className="cr"><span className="l">Sediu</span><span>București, România</span></div>
             <div className="cr"><span className="l">Entitate</span><span>Forward Music Agency SRL · fondată 2014</span></div>
