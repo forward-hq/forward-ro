@@ -116,6 +116,7 @@ export default function Home() {
                         <div className="tp"><b>Mădălin Mavriche</b><span>Asociat · Agent · Booking</span><a href="mailto:madalin@forward.ro">madalin@forward.ro</a></div>
                         <div className="tp"><b>Giulia</b><span>Head of Legal</span><a href="mailto:giulia@forward.ro">giulia@forward.ro</a></div>
               <div className="tp"><b>Adriana Seitan</b><span>Operations Manager</span><a href="mailto:adriana@forward.ro">adriana@forward.ro</a></div>
+              <div className="tp"><b>Ella Ioana Călin</b><span>Artist Management &amp; Label Manager</span><a href="mailto:ella@forward.ro">ella@forward.ro</a></div>
               <div className="tp"><b>Alexandra Ștefan</b><span>Booking Assistant · Bogdan Niță</span><a href="mailto:alexandra.stefan@forward.ro">alexandra.stefan@forward.ro</a></div>
               <div className="tp"><b>Ruxandra Pîrvulescu</b><span>Assistant · Cristi Ochiu</span><a href="mailto:ruxandra.pirvulescu@forward.ro">ruxandra.pirvulescu@forward.ro</a></div>
           </div>
