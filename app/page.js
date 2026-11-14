@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import RosterIndex from '../components/RosterIndex';
+import Manifesto from '../components/Manifesto';
 import { managed, managerOf } from '../lib/data';
 
 export default function Home() {
@@ -30,7 +31,8 @@ export default function Home() {
         <a className="m" href="#c2">artiștii</a>
         <a className="m" href="mailto:booking@forward.ro">booking@forward.ro</a>
       </div>
-
+      <a className="corner" href="#" aria-label="Înapoi sus">Forward<i>.</i></a>
+    
       <main>
         <section className="cover">
           <div className="edition">Monografie de agenție · ediția a XII-a</div>
@@ -53,13 +55,7 @@ export default function Home() {
         </section>
 
         <section className="chapter mani" id="c1">
-          <div className="ck"><span className="num">01</span><span className="t">Manifest</span></div>
-          <p>
-            Pentru artiștii noștri, muzica e <b>munca unei vieți.</b> Treaba
-            noastră e <span className="it">restul:</span> scena, contractele,
-            drumul — făcute atât de bine încât să nu se vadă.
-          </p>
-          <div className="sig">— Forward, din 2014</div>
+                    <Manifesto />
         </section>
 
         <section className="chapter" id="c2">
