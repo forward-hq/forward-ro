@@ -43,8 +43,15 @@ export default async function ArtistPage({ params }) {
         <article className="apage">
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
         <div className="kick">
-{a.cat} · Roster Forward
-{a.epicenter ? ' · Forward × Epicenter' : ''}
+          <Link href={`/?cat=${encodeURIComponent(a.cat)}#c2`}>{a.cat}</Link>
+{' · '}
+          <Link href="/#c2">Roster Forward</Link>
+{a.epicenter && (
+                <>
+{' · '}
+                  <Link href="/?cat=epi#c2">Forward × Epicenter</Link>
+    </>
+              )}
 </div>
         <h1>{a.name}</h1>
         <div className="badges">
