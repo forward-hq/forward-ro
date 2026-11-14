@@ -9,7 +9,7 @@ export default function Home() {
         <div className="logo">
           Forward<i>.</i>
         </div>
-        <div className="sub">Agenție de artiști</div>
+                <div className="sub">Agenție de talente</div>
         <div className="lbl">Cuprins</div>
         <a className="ch" href="#c1"><span className="n">01</span><span>Manifest</span></a>
         <a className="ch" href="#c2"><span className="n">02</span><span>Artiștii</span></a>
