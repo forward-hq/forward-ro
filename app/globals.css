@@ -154,3 +154,8 @@ main{margin-left:230px}
 .vids iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:10px;background:#0e0e10}
 .afoot{margin-top:60px;border-top:1px solid var(--hair);padding-top:20px;font-size:12.5px;color:var(--grey);display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
 .afoot a{color:var(--accent)}
+
+/* — foto artist: duotone Klein — */
+.aphoto{max-width:420px;margin:30px 0 6px;background:var(--accent,#002FA7);overflow:hidden;border:1px solid #0E0E10}
+.aphoto img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;filter:grayscale(1) contrast(1.07) brightness(1.02);mix-blend-mode:screen}
+@media (max-width:720px){.aphoto{max-width:100%}}
