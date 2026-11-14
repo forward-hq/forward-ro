@@ -14,7 +14,13 @@ export async function generateMetadata({ params }) {
     return {
               title: `${a.name} — ${a.management ? 'Booking & Management' : 'Booking'}`,
           description: `Booking ${a.name} prin Forward — scrie-i direct agentului și primești răspuns în următoarea zi lucrătoare. ${a.cat} · Roster Forward.`,
-          alternates: { canonical: `https://forward.ro/talents/${a.slug}/` },
+              alternates: {
+                        canonical: `https://forward.ro/talents/${a.slug}/`,
+                  languages: {
+                      ro: `https://forward.ro/talents/${a.slug}/`,
+                      en: `https://forward.ro/en/talents/${a.slug}/`,
+                  },
+              },
     };
 }
 
@@ -56,6 +62,8 @@ export default async function ArtistPage({ params }) {
                   <Link href="/?cat=epi#c2">Forward × Epicenter</Link>
     </>
               )}
+{' · '}
+<Link href={`/en/talents/${a.slug}/`}>EN</Link>
 </div>
         <h1>{a.name}</h1>
         <div className="badges">
