@@ -1,13 +1,13 @@
 'use client';
 import { useState } from 'react';
 
-export default function CopyBtn({ text }) {
+export default function CopyBtn({ text, label = 'copiază', done = 'copiat ✓' }) {
     const [ok, setOk] = useState(false);
     return (
           <button
         type="button"
         className="copy"
-        aria-label={`Copiază adresa ${text}`}
+              aria-label={`${label} ${text}`}
       onClick={async () => {
                 try {
                             await navigator.clipboard.writeText(text);
@@ -16,7 +16,7 @@ export default function CopyBtn({ text }) {
                 } catch {}
       }}
     >
-      {ok ? 'copiat ✓' : 'copiază'}
+      {ok ? done : label}
 </button>
   );
 }
