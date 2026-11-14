@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ROSTER, bySlug, agentsOf, managerOf, sorted } from '../../../lib/data';
+import { ROSTER, bySlug, agentsOf, managerOf, sorted, managed } from '../../../lib/data';
 import CopyBtn from '../../../components/CopyBtn';
+import PrevNext from '../../../components/PrevNext';
 
 export function generateStaticParams() {
     return ROSTER.map((a) => ({ slug: a.slug }));
@@ -33,6 +34,9 @@ export default async function ArtistPage({ params }) {
       const idx = sorted.findIndex((x) => x.slug === a.slug);
     const prev = sorted[(idx - 1 + sorted.length) % sorted.length];
     const next = sorted[(idx + 1) % sorted.length];
+    const mIdx = a.management ? managed.findIndex((x) => x.slug === a.slug) : -1;
+    const mgPrev = mIdx >= 0 ? managed[(mIdx - 1 + managed.length) % managed.length] : null;
+    const mgNext = mIdx >= 0 ? managed[(mIdx + 1) % managed.length] : null;
 
   const ld = {
         '@context': 'https://schema.org',
@@ -139,10 +143,13 @@ export default async function ArtistPage({ params }) {
   </div>
   </>
         )}
-        <nav className="pn" aria-label="Alt artist din monografie">
-                      <Link href={`/talents/${prev.slug}/`}>← {prev.name}</Link>
-                      <Link href={`/talents/${next.slug}/`}>{next.name} →</Link>
-            </nav>
+                    <PrevNext
+            base="/talents/"
+                label="Alt artist din monografie"
+                    ctxLabel="management"
+                        def={{ p: { n: prev.name, s: prev.slug }, x: { n: next.name, s: next.slug } }}
+mg={mIdx >= 0 ? { p: { n: mgPrev.name, s: mgPrev.slug }, x: { n: mgNext.name, s: mgNext.slug } } : null}
+    />
             
         <div className="afoot">
                     <span>© {new Date().getFullYear()} Forward Music Agency SRL</span>
