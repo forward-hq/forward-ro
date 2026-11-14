@@ -138,17 +138,17 @@ export default function Home() {
           <div className="fgrid">
             <a className="fcard" href="https://www.urban-events.ro" target="_blank" rel="noopener">
               <b>Urban Events<i>.</i></b>
-              <span>Producție de evenimente și proiecte live — partenerul de execuție al agenției, de la club la festival.</span>
+                            <span>Agenția de entertainment pentru nunți, petreceri private și evenimente corporate — artiști, DJ și producție completă.</span>
               <span className="go">urban-events.ro →</span>
             </a>
             <a className="fcard" href="https://www.epicenter-hub.com" target="_blank" rel="noopener">
               <b>Epicenter Hub<i>.</i></b>
-              <span>Divizia rock &amp; alternative, în co-reprezentare „Forward × Epicenter" — scena grea, cu roster propriu.</span>
+                            <span>Divizia rock &amp; alternative, în co-reprezentare „Forward × Epicenter" — scena grea, cu roster și agenți proprii.</span>
               <span className="go">epicenter-hub.com →</span>
             </a>
             <a className="fcard" href="https://forwardsports.ro" target="_blank" rel="noopener">
               <b>Forward Sports<i>.</i></b>
-              <span>Agenția de management sportiv a familiei — fotbaliști din Liga 1, Liga 2 și din străinătate.</span>
+                            <span>Agenția de fotbal, licențiată FIFA — reprezentare și management de carieră pentru jucători din Liga 1 și din străinătate.</span>
               <span className="go">forwardsports.ro →</span>
             </a>
           </div>
