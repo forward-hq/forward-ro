@@ -11,7 +11,7 @@ export async function generateMetadata({ params }) {
     const a = bySlug(slug);
     if (!a) return {};
     return {
-          title: `${a.name} — Booking & Management`,
+              title: `${a.name} — ${a.management ? 'Booking & Management' : 'Booking'}`,
           description: `Booking ${a.name} prin Forward — scrie-i direct agentului și primești răspuns în următoarea zi lucrătoare. ${a.cat} · Roster Forward.`,
           alternates: { canonical: `https://forward.ro/talents/${a.slug}/` },
     };
