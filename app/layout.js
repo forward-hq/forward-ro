@@ -1,10 +1,10 @@
 import './globals.css';
+import { ROSTER } from '../lib/data';
 
 export const metadata = {
   metadataBase: new URL('https://forward.ro'),
     title: { default: 'Forward — Agenție de talente', template: '%s | Forward' },
-  description:
-        'Agenție de talente din București, fondată în 2014. 57 de talente pe roster — booking, management, evenimente și label.',
+    description: `Agenție de talente din București, fondată în 2014. ${ROSTER.length} de talente pe roster — booking, management, evenimente și label.`,
           icons: { icon: '/favicon.ico', apple: '/apple-touch-icon.png' },
     openGraph: {
           siteName: 'Forward',
@@ -21,8 +21,7 @@ const orgLd = {
   url: 'https://forward.ro',
   foundingDate: '2014',
   location: 'București, România',
-  description:
-        'Agenție de talente. 57 de talente pe roster: booking, management, evenimente și label.',
+    description: `Agenție de talente. ${ROSTER.length} de talente pe roster: booking, management, evenimente și label.`,
 };
 
 export default function RootLayout({ children }) {
