@@ -232,3 +232,9 @@ main{margin-left:230px}
       .door a.doorbtn{padding:11px 20px}
       .tabs button{padding:11px 17px}
 }
+
+
+/* EN version */
+.toc .foot .lsw{display:inline-block;margin-top:8px;color:var(--accent);font-size:11.5px}
+.toc .foot .lsw:hover{text-decoration:underline;text-underline-offset:3px}
+.mtbox a.mtlang{display:block;margin-top:10px;border-bottom:0;text-align:center;color:var(--grey);font-size:13px}
