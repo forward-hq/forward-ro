@@ -32,9 +32,11 @@ export default function Home() {
           București · fondată 2014
           <br />
                     <a href="mailto:booking@forward.ro?subject=Cerere booking">booking@forward.ro</a>
+                <span className="lsw2" aria-label="Limbă / Language">
+      <span className="on">RO</span>
+      <Link href="/en/">EN</Link>
+      </span>
         </div>
-              <br />
-    <Link className="lsw" href="/en/">English version →</Link>
       </aside>
           <Scrollspy />
 
