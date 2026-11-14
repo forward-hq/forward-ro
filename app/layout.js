@@ -5,7 +5,13 @@ export const metadata = {
     title: { default: 'Forward — Agenție de talente', template: '%s | Forward' },
   description:
         'Agenție de talente din București, fondată în 2014. 57 de talente pe roster — booking, management, evenimente și label.',
-        openGraph: { siteName: 'Forward', locale: 'ro_RO', type: 'website' },
+          icons: { icon: '/favicon.ico', apple: '/apple-touch-icon.png' },
+    openGraph: {
+          siteName: 'Forward',
+          locale: 'ro_RO',
+          type: 'website',
+          images: [{ url: '/og.png', width: 1200, height: 630, alt: 'Forward — 57 de voci, un singur nume' }],
+    },
 };
 
 const orgLd = {
