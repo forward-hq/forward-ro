@@ -52,6 +52,12 @@ export default async function ArtistPage({ params }) {
 {a.epicenter && <span className="mgtag">× epicenter</span>}
   </div>
 
+ {a.photo && (
+       <figure className="aphoto">
+         <img src={a.photo} alt={a.name} />
+    </figure>
+)}
+
  {a.bio ? (
              <p className="bio">{a.bio}</p>
            ) : (
