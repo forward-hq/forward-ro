@@ -3,7 +3,7 @@ import RosterIndex from '../components/RosterIndex';
 import Manifesto from '../components/Manifesto';
 import Scrollspy from '../components/Scrollspy';
 import MobileToc from '../components/MobileToc';
-import { managed, managerOf } from '../lib/data';
+import { ROSTER, managed, managerOf } from '../lib/data';
 
 export const metadata = {
     alternates: {
@@ -53,13 +53,13 @@ export default function Home() {
           <h1>
             Forward<i>.</i>
             <br />
-            <span className="it">57 de voci,</span>
+            <span className="it">{ROSTER.length} de voci,</span>
             <br />
             un singur nume.
           </h1>
           <div className="base">
             <p>
-                            Agenție de talente din București. <b>57 de talente pe roster</b> —
+                            Agenție de talente din București. <b>{ROSTER.length} de talente pe roster</b> —
                             50 reprezentate direct și 7 împreună cu Epicenter — booking și
               management, evenimente și label, din 2014 până azi, fără
               întrerupere.
@@ -110,9 +110,9 @@ export default function Home() {
             <div className="te"><span className="y">2014</span><p><b>Se înființează Forward</b>, la București, cu primii artiști în roster și o convingere simplă: reprezentarea e o meserie de cursă lungă.</p></div>
             <div className="te"><span className="y">2016</span><p>Rosterul trece de <b>20 de artiști</b>; agenția devine prezență constantă în cluburile și festivalurile din țară.</p></div>
             <div className="te"><span className="y">2019</span><p>Se conturează diviziile: booking, evenimente și primele proiecte de <b>management complet</b>.</p></div>
-            <div className="te"><span className="y">2021</span><p>Parteneriate strategice în industrie; agenția depășește <b>500 de contracte pe an</b>.</p></div>
+                        <div className="te"><span className="y">2021</span><p>Parteneriate strategice în industrie; volumul de booking crește de la an la an.</p></div>
             <div className="te"><span className="y">2024</span><p>Se lansează divizia <b>rock &amp; alternative</b>, împreună cu Epicenter, și crește divizia de management.</p></div>
-            <div className="te"><span className="y">2026</span><p><b>57 de artiști pe roster, 880+ contracte pe an</b>, cinci categorii muzicale și divizia de management. Una dintre cele mai mari agenții de artiști din România, după volum.</p></div>
+                        <div className="te"><span className="y">2026</span><p><b>{ROSTER.length} de artiști pe roster, sute de contracte pe an</b>, cinci categorii muzicale și divizia de management. Una dintre cele mai mari agenții de artiști din România, după volum.</p></div>
           </div>
         </section>
 
@@ -134,6 +134,8 @@ export default function Home() {
             Fără formulare de contact. Scrii direct omului care se ocupă — iar
                         dacă nu știi cui, <a href="mailto:booking@forward.ro?subject=Cerere booking">booking@forward.ro</a>{' '}
             ajunge la agentul potrivit, cu răspuns în următoarea zi lucrătoare.
+                            Pașii, factorii de preț și întrebările frecvente —{' '}
+în <Link href="/cum-lucram/">Cum lucrăm</Link>.
           </p>
           <div className="door">
             <b>Vrei să lucrezi la Forward?</b> Nu ținem anunțuri deschise
@@ -148,7 +150,9 @@ export default function Home() {
           <p className="mexp">
                         Forward e mai mult decât agenția de talente. Un nume, patru
                         teritorii — muzică, evenimente, rock &amp; alternative, sport —
-                          fiecare cu echipa lui.
+                                      fiecare cu echipa lui. Pentru nunți, petreceri private și
+                                          evenimente corporate, drumul direct e Urban Events — același
+                                              standard, cu echipa specializată pe evenimente.
           </p>
           <div className="fgrid">
             <a className="fcard" href="https://www.urban-events.ro" target="_blank" rel="noopener">
@@ -180,12 +184,13 @@ export default function Home() {
                         <div className="cr"><span className="l">Demo-uri</span><span><a href="mailto:demo@forward.ro?subject=Demo — [numele tău]">demo@forward.ro</a></span></div>
                         <div className="cr"><span className="l">Cariere</span><span><a href="mailto:cariere@forward.ro?subject=Vreau în echipa Forward">cariere@forward.ro</a></span></div>
                         <div className="cr"><span className="l">Presă</span><span><a href="mailto:contact@forward.ro">contact@forward.ro</a></span></div>
+                                          <div className="cr"><span className="l">Cum lucrăm</span><span><Link href="/cum-lucram/">pașii, factorii de preț, întrebările frecvente →</Link></span></div>
             <div className="cr"><span className="l">Sediu</span><span>București, România</span></div>
                                         <div className="cr"><span className="l">English</span><span><Link href="/en/">forward.ro/en — the English version →</Link></span></div>
             <div className="cr"><span className="l">Entitate</span><span>Forward Music Agency SRL · fondată 2014</span></div>
             <div className="cr"><span className="l">Familia Forward</span><span>Forward Music (acest site) · <a href="https://forwardsports.ro" target="_blank" rel="noopener">Forward Sports</a> · <a href="https://www.urban-events.ro" target="_blank" rel="noopener">Urban Events</a> · <a href="https://www.epicenter-hub.com" target="_blank" rel="noopener">Epicenter Hub</a></span></div>
           </div>
-                    <p className="ai">© 2026 Forward Music Agency SRL. Toate drepturile rezervate.</p>
+                              <p className="ai">© {new Date().getFullYear()} Forward Music Agency SRL. Toate drepturile rezervate.</p>
         </section>
       </main>
     </>
