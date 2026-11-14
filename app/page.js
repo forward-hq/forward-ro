@@ -5,7 +5,12 @@ import Scrollspy from '../components/Scrollspy';
 import MobileToc from '../components/MobileToc';
 import { managed, managerOf } from '../lib/data';
 
-export const metadata = { alternates: { canonical: '/' } };
+export const metadata = {
+    alternates: {
+          canonical: 'https://forward.ro/',
+      languages: { ro: 'https://forward.ro/', en: 'https://forward.ro/en/' },
+    },
+};
 
 export default function Home() {
   return (
@@ -28,6 +33,8 @@ export default function Home() {
           <br />
                     <a href="mailto:booking@forward.ro?subject=Cerere booking">booking@forward.ro</a>
         </div>
+              <br />
+    <Link className="lsw" href="/en/">English version →</Link>
       </aside>
           <Scrollspy />
 
@@ -172,6 +179,7 @@ export default function Home() {
                         <div className="cr"><span className="l">Cariere</span><span><a href="mailto:cariere@forward.ro?subject=Vreau în echipa Forward">cariere@forward.ro</a></span></div>
                         <div className="cr"><span className="l">Presă</span><span><a href="mailto:contact@forward.ro">contact@forward.ro</a></span></div>
             <div className="cr"><span className="l">Sediu</span><span>București, România</span></div>
+                                        <div className="cr"><span className="l">English</span><span><Link href="/en/">forward.ro/en — the English version →</Link></span></div>
             <div className="cr"><span className="l">Entitate</span><span>Forward Music Agency SRL · fondată 2014</span></div>
             <div className="cr"><span className="l">Familia Forward</span><span>Forward Music (acest site) · <a href="https://forwardsports.ro" target="_blank" rel="noopener">Forward Sports</a> · <a href="https://www.urban-events.ro" target="_blank" rel="noopener">Urban Events</a> · <a href="https://www.epicenter-hub.com" target="_blank" rel="noopener">Epicenter Hub</a></span></div>
           </div>
