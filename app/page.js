@@ -43,8 +43,8 @@ export default function Home() {
           </h1>
           <div className="base">
             <p>
-              Agenție de artiști din București. <b>57 de artiști pe roster</b> —
-              50 reprezentați direct și 7 împreună cu Epicenter — booking și
+                            Agenție de talente din București. <b>57 de talente pe roster</b> —
+                            50 reprezentate direct și 7 împreună cu Epicenter — booking și
               management, evenimente și label, din 2014 până azi, fără
               întrerupere.
             </p>
