@@ -241,3 +241,4 @@ main{margin-left:230px}
 .lsw2 a:hover{color:var(--accent)}
 .mtbox a.mtlang{display:block;margin-top:10px;border-bottom:0;text-align:center;color:var(--grey);font-size:13px}
 .kick .lsw2{margin:0 0 0 12px;vertical-align:middle}
+.pn .pnctx{align-self:center;font-family:var(--sans),Arial,sans-serif;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--grey)}
