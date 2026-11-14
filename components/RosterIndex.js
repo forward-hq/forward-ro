@@ -1,10 +1,14 @@
 'use client';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { CATS, sorted } from '../lib/data';
 
 export default function RosterIndex() {
     const [f, setF] = useState('all');
+      useEffect(() => {
+              const c = new URLSearchParams(window.location.search).get('cat');
+              if (c && CATS.some((x) => x.key === c)) setF(c);
+      }, []);
   const visible = sorted.filter(
     (a) => f === 'all' || a.cat === f || (f === 'epi' && a.epicenter)
   );
