@@ -92,7 +92,7 @@ export default function Home() {
           </p>
           <div className="mgrid">
             {managed.map((a) => (
-              <Link className="mcard" key={a.slug} href={`/talents/${a.slug}/`}>
+              <Link className="mcard" key={a.slug} href={`/talents/${a.slug}/?din=management`}>
                 <div className="mn sf">{a.name}</div>
                 <span className="ml">
                   Management{a.management.scope ? ` (${a.management.scope})` : ''}:{' '}
