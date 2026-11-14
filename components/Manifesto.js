@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 export default function Manifesto() {
     const [open, setOpen] = useState(false);
@@ -11,6 +11,23 @@ export default function Manifesto() {
   useEffect(() => {
     document.body.style.overflow = open ? 'hidden' : '';
     return () => { document.body.style.overflow = ''; };
+      }, [open]);
+      const boxRef = useRef(null);
+      useEffect(() => {
+              if (!open) return;
+              const prev = document.activeElement;
+              const box = boxRef.current;
+              box?.querySelector('.mox')?.focus();
+              const trap = (e) => {
+                        if (e.key !== 'Tab') return;
+                        const f = box.querySelectorAll('button, a');
+                        const first = f[0];
+                        const last = f[f.length - 1];
+                        if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+                        else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+              };
+              box?.addEventListener('keydown', trap);
+              return () => { box?.removeEventListener('keydown', trap); prev?.focus?.(); };
       }, [open]);
 
   return (
@@ -30,8 +47,8 @@ export default function Manifesto() {
 
     {open && (
             <div className="mo" onClick={() => setOpen(false)} role="dialog" aria-modal="true">
-            <article className="mobox" onClick={(e) => e.stopPropagation()}>
-            <button type="button" className="mox" onClick={() => setOpen(false)}>închide ×</button>
+                      <article className="mobox" ref={boxRef} onClick={(e) => e.stopPropagation()}>
+                        <button type="button" className="mox" aria-label="Închide manifestul" onClick={() => setOpen(false)}>închide ×</button>
             <div className="mokick">Manifest · Forward, din 2014</div>
             <h3>Restul.</h3>
             <p>
