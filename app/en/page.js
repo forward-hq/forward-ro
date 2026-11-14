@@ -7,7 +7,7 @@ import SetLang from '../../components/SetLang';
 import { managed, managerOf } from '../../lib/data';
 
 export const metadata = {
-  title: 'Forward — Talent agency',
+    title: { absolute: 'Forward — Talent agency' },
     description:
         'Talent agency from Bucharest, Romania. 57 artists on the roster — booking and management, events and label, since 2014. No contact forms: you write directly to the agent.',
           alternates: {
