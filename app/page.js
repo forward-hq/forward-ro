@@ -131,8 +131,9 @@ export default function Home() {
         <section className="chapter" id="c6">
           <div className="ck"><span className="num">06</span><span className="t">Familia Forward</span></div>
           <p className="mexp">
-            Forward e mai mult decât agenția de muzică. Aceeași echipă
-            fondatoare, patru teritorii — fiecare cu casa lui.
+                        Forward e mai mult decât agenția de talente. Un nume, patru
+                        teritorii — muzică, evenimente, rock &amp; alternative, sport —
+                          fiecare cu echipa lui.
           </p>
           <div className="fgrid">
             <a className="fcard" href="https://www.urban-events.ro" target="_blank" rel="noopener">
