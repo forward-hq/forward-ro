@@ -107,14 +107,17 @@ export default function Home() {
         </section>
 
         <section className="chapter" id="c5">
-          <div className="ck"><span className="num">05</span><span className="t">Echipa — acces direct</span></div>
+                    <div className="ck"><span className="num">05</span><span className="t">Echipa</span></div>
           <div className="tgrid">
             <div className="tp"><b>Cristi Ochiu</b><span>Fondator · Agent · Management</span><a href="mailto:cristi@forward.ro">cristi@forward.ro</a></div>
             <div className="tp"><b>Bogdan Niță</b><span>Asociat · Agent · Management</span><a href="mailto:bogdan@forward.ro">bogdan@forward.ro</a></div>
             <div className="tp"><b>Valeria Vdovii</b><span>Agent · Booking</span><a href="mailto:valeria@forward.ro">valeria@forward.ro</a></div>
             <div className="tp"><b>Andrei Unguru</b><span>Agent · Booking</span><a href="mailto:andrei@forward.ro">andrei@forward.ro</a></div>
-            <div className="tp"><b>Mădălin Mavriche</b><span>Agent · Booking</span><a href="mailto:madalin@forward.ro">madalin@forward.ro</a></div>
-            <div className="tp"><b>Giulia</b><span>Legal</span><a href="mailto:giulia@forward.ro">giulia@forward.ro</a></div>
+                        <div className="tp"><b>Mădălin Mavriche</b><span>Asociat · Agent · Booking</span><a href="mailto:madalin@forward.ro">madalin@forward.ro</a></div>
+                        <div className="tp"><b>Giulia</b><span>Head of Legal</span><a href="mailto:giulia@forward.ro">giulia@forward.ro</a></div>
+              <div className="tp"><b>Adriana Seitan</b><span>Operations Manager</span><a href="mailto:adriana@forward.ro">adriana@forward.ro</a></div>
+              <div className="tp"><b>Alexandra Ștefan</b><span>Booking Assistant · Bogdan Niță</span><a href="mailto:alexandra.stefan@forward.ro">alexandra.stefan@forward.ro</a></div>
+              <div className="tp"><b>Ruxandra Pîrvulescu</b><span>Assistant · Cristi Ochiu</span><a href="mailto:ruxandra.pirvulescu@forward.ro">ruxandra.pirvulescu@forward.ro</a></div>
           </div>
           <p className="tnote">
             Fără formulare de contact. Scrii direct omului care se ocupă — iar
