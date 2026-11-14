@@ -3,6 +3,8 @@ import RosterIndex from '../components/RosterIndex';
 import Manifesto from '../components/Manifesto';
 import { managed, managerOf } from '../lib/data';
 
+export const metadata = { alternates: { canonical: '/' } };
+
 export default function Home() {
   return (
     <>
