@@ -81,7 +81,7 @@ export default async function ArtistPage({ params }) {
           ))}
             </div>
 
-{(a.socials?.instagram || a.socials?.youtube || a.socials?.spotify || a.socials?.facebook || a.socials?.tiktok) && (
+{(a.socials?.instagram || a.socials?.youtube || a.socials?.spotify || a.socials?.facebook || a.socials?.tiktok || a.socials?.web) && (
             <>
               <h2 className="sec">Ascultă & urmărește</h2>
              <div className="soc">
@@ -90,6 +90,7 @@ export default async function ArtistPage({ params }) {
 {a.socials.spotify && <a href={a.socials.spotify} target="_blank" rel="noopener">spotify</a>}
 {a.socials.facebook && <a href={a.socials.facebook} target="_blank" rel="noopener">facebook</a>}
 {a.socials.tiktok && <a href={a.socials.tiktok} target="_blank" rel="noopener">tiktok</a>}
+{a.socials.web && <a href={a.socials.web} target="_blank" rel="noopener">website</a>}
   </div>
   </>
         )}
