@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { CATS, sorted } from '../lib/data';
+import HoverPreview from './HoverPreview';
 
 const norm = (s) =>
       s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
@@ -55,9 +56,10 @@ export default function RosterIndex() {
                                                                                 </button>
                                                                                         )}
                                                                                             </div>
+                                                                                              <HoverPreview />
       <div className="rlist">
 {visible.map((a, i) => (
-          <Link className="rrow" key={a.slug} href={`/talents/${a.slug}/`}>
+          <Link className="rrow" key={a.slug} href={`/talents/${a.slug}/`} data-photo={a.photo || undefined} data-i={i}>
             <span className="ix">{String(i + 1).padStart(2, '0')}</span>
             <span className="nm">
 {a.name}
