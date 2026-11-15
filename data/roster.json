@@ -497,6 +497,7 @@
    "name": "Grasu XXL",
    "cat": "Urban Hip-Hop",
    "slug": "grasu-xxl",
+   "photo": "/artists/grasu-xxl.webp",
    "booking": [
     "B",
     "C"
@@ -517,6 +518,7 @@
    "name": "Guess Who",
    "cat": "Urban Hip-Hop",
    "slug": "guess-who",
+   "photo": "/artists/guess-who.webp",
    "booking": [
     "B",
     "C"
@@ -597,6 +599,7 @@
    "name": "Dan Gerosu",
    "cat": "Urban Hip-Hop",
    "slug": "dan-gerosu",
+   "photo": "/artists/dan-gerosu.webp",
    "booking": [
     "A",
     "C"
