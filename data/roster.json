@@ -164,6 +164,7 @@
    "name": "Alina Eremia",
    "cat": "Pop",
    "slug": "alina-eremia",
+   "photo": "/artists/alina-eremia.webp",
    "booking": [
     "V",
     "B"
@@ -393,6 +394,7 @@
    "name": "Adi Istrate",
    "cat": "Pop",
    "slug": "adi-istrate",
+   "photo": "/artists/adi-istrate.webp",
    "booking": [
     "B",
     "V"
@@ -1032,6 +1034,7 @@
    "name": "Deliah",
    "cat": "DJ",
    "slug": "deliah",
+   "photo": "/artists/deliah.webp",
    "booking": [
     "C",
     "B"
