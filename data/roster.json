@@ -71,6 +71,7 @@
    "name": "The Motans",
    "cat": "Pop",
    "slug": "the-motans",
+   "photo": "/artists/the-motans.webp",
    "booking": [
     "B",
     "C"
@@ -112,6 +113,7 @@
    "name": "Tania Turtureanu",
    "cat": "Pop",
    "slug": "tania-turtureanu",
+   "photo": "/artists/tania-turtureanu.webp",
    "booking": [
     "V",
     "C"
@@ -189,6 +191,7 @@
    "name": "Randi",
    "cat": "Pop",
    "slug": "randi",
+   "photo": "/artists/randi.webp",
    "booking": [
     "B",
     "C"
@@ -230,6 +233,7 @@
    "name": "Rareș",
    "cat": "Pop",
    "slug": "rares",
+   "photo": "/artists/rares.webp",
    "booking": [
     "B",
     "V"
@@ -261,6 +265,7 @@
    "name": "Mira",
    "cat": "Pop",
    "slug": "mira",
+   "photo": "/artists/mira.webp",
    "booking": [
     "B",
     "C"
@@ -323,6 +328,7 @@
    "name": "ȘTEFANIA",
    "cat": "Pop",
    "slug": "stefania",
+   "photo": "/artists/stefania.webp",
    "booking": [
     "B",
     "V"
@@ -425,6 +431,7 @@
    "name": "Tobi Ibitoye",
    "cat": "Pop",
    "slug": "tobi-ibitoye",
+   "photo": "/artists/tobi-ibitoye.webp",
    "booking": [
     "B",
     "C"
