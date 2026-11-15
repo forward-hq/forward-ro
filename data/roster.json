@@ -91,6 +91,7 @@
    "name": "Irina Rimes",
    "cat": "Pop",
    "slug": "irina-rimes",
+   "photo": "/artists/irina-rimes.webp",
    "booking": [
     "V",
     "B"
@@ -208,6 +209,7 @@
    "name": "Minelli",
    "cat": "Pop",
    "slug": "minelli",
+   "photo": "/artists/minelli.webp",
    "booking": [
     "V",
     "B"
@@ -341,6 +343,7 @@
    "name": "Florian Rus",
    "cat": "Pop",
    "slug": "florian-rus",
+   "photo": "/artists/florian-rus.webp",
    "booking": [
     "V",
     "B"
@@ -382,6 +385,7 @@
    "name": "Holy Molly",
    "cat": "Pop",
    "slug": "holy-molly",
+   "photo": "/artists/holy-molly.webp",
    "booking": [
     "V",
     "B"
