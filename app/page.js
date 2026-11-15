@@ -170,6 +170,11 @@ export default function Home() {
                             <span>Agenția de fotbal, licențiată FIFA — reprezentare și management de carieră pentru jucători din Liga 1 și din străinătate.</span>
               <span className="go">forwardsports.ro →</span>
             </a>
+                                                  <a className="fcard" href="https://stellarevents.ro" target="_blank" rel="noopener">
+                                                  <b>Stellar Events<i>.</i></b>
+                                                  <span>Producătorul de evenimente open-air al grupului — zilele orașului, festivaluri și evenimente publice de mare amploare, cu producție proprie.</span>
+                                                  <span className="go">stellarevents.ro →</span>
+                                                  </a>
           </div>
         </section>
 
@@ -188,7 +193,7 @@ export default function Home() {
             <div className="cr"><span className="l">Sediu</span><span>București, România</span></div>
                                         <div className="cr"><span className="l">English</span><span><Link href="/en/">forward.ro/en — the English version →</Link></span></div>
             <div className="cr"><span className="l">Entitate</span><span>Forward Music Agency SRL · fondată 2014</span></div>
-            <div className="cr"><span className="l">Familia Forward</span><span>Forward Music (acest site) · <a href="https://forwardsports.ro" target="_blank" rel="noopener">Forward Sports</a> · <a href="https://www.urban-events.ro" target="_blank" rel="noopener">Urban Events</a> · <a href="https://www.epicenter-hub.com" target="_blank" rel="noopener">Epicenter Hub</a></span></div>
+            <div className="cr"><span className="l">Familia Forward</span><span>Forward Music (acest site) · <a href="https://forwardsports.ro" target="_blank" rel="noopener">Forward Sports</a> · <a href="https://www.urban-events.ro" target="_blank" rel="noopener">Urban Events</a> · <a href="https://stellarevents.ro" target="_blank" rel="noopener">Stellar Events</a> · <a href="https://www.epicenter-hub.com" target="_blank" rel="noopener">Epicenter Hub</a></span></div>
           </div>
                               <p className="ai">© {new Date().getFullYear()} Forward Music Agency SRL. Toate drepturile rezervate.</p>
         </section>
