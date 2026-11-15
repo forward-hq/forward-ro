@@ -50,6 +50,7 @@
    "name": "Carla's Dreams",
    "cat": "Pop",
    "slug": "carlas-dreams",
+   "photo": "/artists/carlas-dreams.webp",
    "booking": [
     "V",
     "B"
@@ -125,6 +126,7 @@
    "name": "Erika Isac",
    "cat": "Pop",
    "slug": "erika-isac",
+   "photo": "/artists/erika-isac.webp",
    "booking": [
     "B",
     "V"
@@ -277,6 +279,7 @@
    "name": "EMAA",
    "cat": "Pop",
    "slug": "emaa",
+   "photo": "/artists/emaa.webp",
    "booking": [
     "V",
     "B"
@@ -441,6 +444,7 @@
    "name": "Eva Timush",
    "cat": "Pop",
    "slug": "eva-timush",
+   "photo": "/artists/eva-timush.webp",
    "booking": [
     "V"
    ],
