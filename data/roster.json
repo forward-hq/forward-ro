@@ -144,6 +144,7 @@
    "name": "Antonia",
    "cat": "Pop",
    "slug": "antonia",
+   "photo": "/artists/antonia.webp",
    "booking": [
     "V",
     "B"
@@ -244,6 +245,7 @@
    "name": "BABASHA",
    "cat": "Pop",
    "slug": "babasha",
+   "photo": "/artists/babasha.webp",
    "booking": [
     "B",
     "V"
