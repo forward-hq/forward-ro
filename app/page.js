@@ -180,7 +180,7 @@ export default function Home() {
                         <div className="cr"><span className="l">Booking</span><span><a href="mailto:booking@forward.ro?subject=Cerere booking">booking@forward.ro</a></span></div>
             <div className="cr"><span className="l">Informații</span><span><a href="mailto:contact@forward.ro">contact@forward.ro</a></span></div>
             <div className="cr"><span className="l">Financiar</span><span><a href="mailto:financiar@forward.ro">financiar@forward.ro</a></span></div>
-                        <div className="cr"><span className="l">Legal</span><span><a href="mailto:legal@forward.ro">legal@forward.ro</a></span></div>
+                        <div className="cr"><span className="l">Legal</span><span><a href="mailto:legal@forward.ro">legal@forward.ro</a> · <Link href="/legal/">termeni &amp; confidențialitate →</Link></span></div>
                         <div className="cr"><span className="l">Demo-uri</span><span><a href="mailto:demo@forward.ro?subject=Demo — [numele tău]">demo@forward.ro</a></span></div>
                         <div className="cr"><span className="l">Cariere</span><span><a href="mailto:cariere@forward.ro?subject=Vreau în echipa Forward">cariere@forward.ro</a></span></div>
                         <div className="cr"><span className="l">Presă</span><span><a href="mailto:contact@forward.ro">contact@forward.ro</a></span></div>
