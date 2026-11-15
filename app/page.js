@@ -59,8 +59,8 @@ export default function Home() {
           </h1>
           <div className="base">
             <p>
-                            Agenție de talente din București. <b>{ROSTER.length} de talente pe roster</b> —
-                            50 reprezentate direct și 7 împreună cu Epicenter — booking și
+                            Agenție de talente din București. <b>{ROSTER.length} de talente pe roster</b>,
+                            50 reprezentate direct și 7 împreună cu Epicenter, booking și
               management, evenimente și label, din 2014 până azi, fără
               întrerupere.
             </p>
@@ -150,9 +150,7 @@ export default function Home() {
           <p className="mexp">
                         Forward e mai mult decât agenția de talente. Un nume, patru
                         teritorii muzică, evenimente, rock &amp; alternative, sport
-                                      fiecare cu echipa lui. Pentru nunți, petreceri private și
-                                          evenimente corporate, drumul direct e Urban Events — același
-                                              standard, cu echipa specializată pe evenimente.
+                                      fiecare cu echipa lui.
           </p>
           <div className="fgrid">
             <a className="fcard" href="https://www.urban-events.ro" target="_blank" rel="noopener">
