@@ -958,6 +958,7 @@
    "name": "Manuel Riva",
    "cat": "DJ",
    "slug": "manuel-riva",
+   "photo": "/artists/manuel-riva.webp",
    "booking": [
     "C",
     "B"
@@ -981,6 +982,7 @@
    "name": "Andre Rizo",
    "cat": "DJ",
    "slug": "andre-rizo",
+   "photo": "/artists/andre-rizo.webp",
    "booking": [
     "B",
     "C"
@@ -1004,6 +1006,7 @@
    "name": "Albwho",
    "cat": "DJ",
    "slug": "alb-who",
+   "photo": "/artists/alb-who.webp",
    "booking": [
     "C",
     "B"
@@ -1050,6 +1053,7 @@
    "name": "Speak",
    "cat": "DJ",
    "slug": "speak",
+   "photo": "/artists/speak.webp",
    "booking": [
     "B",
     "V"
@@ -1101,6 +1105,7 @@
    "name": "Chris Hype",
    "cat": "DJ",
    "slug": "chris-hype",
+   "photo": "/artists/chris-hype.webp",
    "booking": [
     "C",
     "B"
