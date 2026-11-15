@@ -466,6 +466,7 @@
    "name": "Zodier",
    "cat": "Pop",
    "slug": "zodier",
+   "photo": "/artists/zodier.webp",
    "booking": [
     "V"
    ],
@@ -694,6 +695,7 @@
    "name": "Albert NBN",
    "cat": "Urban Trap",
    "slug": "albert-nbn",
+   "photo": "/artists/albert-nbn.webp",
    "booking": [
     "A",
     "B"
