@@ -41,7 +41,7 @@ export default function Manifesto() {
           <p>
             Pentru artiștii noștri, muzica e <b>munca unei vieți.</b> Treaba
             noastră e <span className="it">restul:</span> scena, contractele,
-            drumul făcute atât de bine încât să nu se vadă.
+            drumul, făcute atât de bine încât să nu se vadă.
           </p>
           <div className="sig">— Forward, din 2014</div>
 
