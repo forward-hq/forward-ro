@@ -477,6 +477,7 @@
    "name": "Paraziții",
    "cat": "Urban Hip-Hop",
    "slug": "parazitii",
+   "photo": "/artists/parazitii.webp",
    "booking": [
     "M",
     "C"
@@ -539,6 +540,7 @@
    "name": "Puya",
    "cat": "Urban Hip-Hop",
    "slug": "puya",
+   "photo": "/artists/puya.webp",
    "booking": [
     "C",
     "B"
@@ -559,6 +561,7 @@
    "name": "La Familia",
    "cat": "Urban Hip-Hop",
    "slug": "la-familia",
+   "photo": "/artists/la-familia.webp",
    "booking": [
     "B",
     "C"
@@ -579,6 +582,7 @@
    "name": "Vescan",
    "cat": "Urban Hip-Hop",
    "slug": "vescan",
+   "photo": "/artists/vescan.webp",
    "booking": [
     "C",
     "B"
