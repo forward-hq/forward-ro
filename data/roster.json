@@ -295,6 +295,7 @@
    "name": "AMI",
    "cat": "Pop",
    "slug": "ami",
+   "photo": "/artists/ami.webp",
    "booking": [
     "B",
     "V"
@@ -355,6 +356,7 @@
    "name": "Andrei Ursu (wrs)",
    "cat": "Pop",
    "slug": "andrei-ursu-wrs",
+   "photo": "/artists/andrei-ursu-wrs.webp",
    "booking": [
     "V",
     "B"
