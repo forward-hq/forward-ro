@@ -86,7 +86,7 @@ export default function Home() {
           <div className="ck"><span className="num">03</span><span className="t">Management — carieră, nu doar concerte</span></div>
           <p className="mexp">
             Pentru nouă artiști, Forward face <b>totul</b>: strategie, lansări,
-            imagine, parteneriate, drumul întreg al carierei — nu doar scena. E
+            imagine, parteneriate, drumul întreg al carierei nu doar scena. E
             cea mai apropiată formă de lucru pe care o avem cu un artist, și
             cea mai rară.
           </p>
@@ -131,15 +131,15 @@ export default function Home() {
               <div className="tp"><b>Ruxandra Pîrvulescu</b><span>Assistant · Cristi Ochiu</span><a href="mailto:ruxandra.pirvulescu@forward.ro">ruxandra.pirvulescu@forward.ro</a></div>
           </div>
           <p className="tnote">
-            Fără formulare de contact. Scrii direct omului care se ocupă — iar
+            Fără formulare de contact. Scrii direct omului care se ocupă iar
                         dacă nu știi cui, <a href="mailto:booking@forward.ro?subject=Cerere booking">booking@forward.ro</a>{' '}
             ajunge la agentul potrivit, cu răspuns în următoarea zi lucrătoare.
-                            Pașii, factorii de preț și întrebările frecvente —{' '}
+                            Pașii, factorii de preț și întrebările frecvente{' '}
 în <Link href="/cum-lucram/">Cum lucrăm</Link>.
           </p>
           <div className="door">
             <b>Vrei să lucrezi la Forward?</b> Nu ținem anunțuri deschise
-            permanent — când căutăm pe cineva, anunțăm aici. Dar citim tot ce
+            permanent când căutăm pe cineva, anunțăm aici. Dar citim tot ce
                         primim, oricând.
                           <a className="doorbtn" href="mailto:cariere@forward.ro?subject=Vreau în echipa Forward">cariere@forward.ro →</a>
           </div>
@@ -149,7 +149,7 @@ export default function Home() {
           <div className="ck"><span className="num">06</span><span className="t">Familia Forward</span></div>
           <p className="mexp">
                         Forward e mai mult decât agenția de talente. Un nume, patru
-                        teritorii — muzică, evenimente, rock &amp; alternative, sport —
+                        teritorii muzică, evenimente, rock &amp; alternative, sport
                                       fiecare cu echipa lui. Pentru nunți, petreceri private și
                                           evenimente corporate, drumul direct e Urban Events — același
                                               standard, cu echipa specializată pe evenimente.
