@@ -848,6 +848,7 @@
    "name": "Vlad Corb",
    "cat": "Rock/Indie/Alternativ",
    "slug": "vlad-corb",
+   "photo": "/artists/vlad-corb.webp",
    "booking": [
     "C",
     "O"
@@ -903,6 +904,7 @@
       "name": "The Kryptonite Sparks",
    "cat": "Rock/Indie/Alternativ",
    "slug": "the-kriptonite-sparks",
+   "photo": "/artists/the-kriptonite-sparks.webp",
    "booking": [
     "O",
     "T"
@@ -931,6 +933,7 @@
    "name": "Bob Ramanka",
    "cat": "Rock/Indie/Alternativ",
    "slug": "bob-ramanka",
+   "photo": "/artists/bob-ramanka.webp",
    "booking": [
     "T",
     "O"
@@ -945,6 +948,7 @@
    "name": "Omul cu Șobolani",
    "cat": "Rock/Indie/Alternativ",
    "slug": "omul-cu-sobolani",
+   "photo": "/artists/omul-cu-sobolani.webp",
    "booking": [
     "T",
     "O"
