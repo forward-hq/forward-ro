@@ -726,6 +726,7 @@
    "name": "MARKO GLASS",
    "cat": "Urban Trap",
    "slug": "marko-glass",
+   "photo": "/artists/marko-glass.webp",
    "booking": [
     "B",
     "C"
@@ -836,6 +837,7 @@
    "name": "Mihai Mărgineanu",
    "cat": "Rock/Indie/Alternativ",
    "slug": "mihai-margineanu",
+   "photo": "/artists/mihai-margineanu.webp",
    "booking": [
     "C",
     "M"
@@ -865,6 +867,7 @@
    "name": "White Mahala",
    "cat": "Rock/Indie/Alternativ",
    "slug": "white-mahala",
+   "photo": "/artists/white-mahala.webp",
    "booking": [
     "A",
     "O"
@@ -919,6 +922,7 @@
    "name": "Nuanțe",
    "cat": "Rock/Indie/Alternativ",
    "slug": "nuante",
+   "photo": "/artists/nuante.webp",
    "booking": [
     "O",
     "T"
